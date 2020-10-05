@@ -47,7 +47,7 @@
 						<div class="col">
 							<div class="card-body p-2">
 								<div class="card-author no-border align-items-center">
-									<img src="http://localhost/newstanerid/assets/img/tentor/cabbage.png" class="img-fluid img-profile mr-3" alt="">
+									<img src="<?= base_url(); ?>assets/img/tentor/cabbage.png" class="img-fluid img-profile mr-3" alt="">
 									<div class="info-profile">
 										<?php
 										$jam = date('H:i');
