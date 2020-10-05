@@ -146,7 +146,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="content-blank bg-gray py-2 pb-5 mb-5">
+			<section class="content-blank bg-gray py-3 pb-5 mb-5">
 				<div class="container">
 					<h4 class="text-capitalize head-title">Event terbaru</h4>
 					<div class="p-relative">
