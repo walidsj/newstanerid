@@ -3,19 +3,18 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 class Welcome extends CI_Controller
 {
+	public function __construct()
+	{
+		parent::__construct();
+		$this->user = checkloginstate();
+	}
+
 	public function index()
 	{
 
-		$this->load->library('recaptcha');
-		$captcha_answer = $this->input->post('g-recaptcha-response');
-		$response = $this->recaptcha->verifyResponse($captcha_answer);
+		$data['user'] = $this->user;
 
-		if ($response['success']) {
-			// Your success code here
-		} else {
-			// Something goes wrong
-		}
-
-		$this->load->view('pages/welcome/index');
+		$data['title'] = 'Halo!';
+		$this->load->view('pages/welcome/index', $data);
 	}
 }

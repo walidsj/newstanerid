@@ -11,13 +11,35 @@ class Registrasi extends CI_Controller
 
 	public function index()
 	{
+		if (checkloginstate() == true) {
+			redirect('akun');
+		}
+
+		//user belum login staner
 		if ($this->google->isLoggedIn() == true) {
-			set_cookie('key', json_encode($this->session->access_token), 30 * 24 * 60 * 60);
-			var_dump(json_decode(get_cookie('key'), true));
-			// var_dump($this->google->getUserInfo());
+			//user telah login akun google
+			$userlogin = json_decode($this->google->getUserInfo());
+			$user = $this->db->get_where('users', ['user_email' => $userlogin->email])
+				->row();
+			if ($user) {
+				//jika user login dan terdaftar di dalam data user database
+				if (setloginstate($user->user_id, $user->user_email) == true) {
+					redirect('akun');
+				} else {
+					redirect('/');
+				}
+			} else {
+				//jika user login tetapi belum terdaftar
+				redirect('registrasi/lengkapi');
+			}
 		} else {
+			//user tidak login akun google
 			redirect('registrasi/oauth2');
 		}
+	}
+
+	public function lengkapi()
+	{
 	}
 
 	public function oauth2()
@@ -35,6 +57,15 @@ class Registrasi extends CI_Controller
 			redirect('registrasi');
 		} else {
 			show_404();
+		}
+	}
+
+	public function logout()
+	{
+		if (setlogoutstate() == true) {
+			if ($this->google->logout() == true) {
+				redirect('/');
+			}
 		}
 	}
 }

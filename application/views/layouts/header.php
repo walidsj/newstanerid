@@ -1,32 +1,27 @@
 <head>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="description" content="Luarsekolah merupakan wadah belajar dan mengajar pelajaran non-formal / alternatif dengan cara menyediakan kelas pengajaran dalam bentuk online dan offline untuk memudahkan pemuda dan pemudi Indonesia dalam mempelajarinya">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-    <title>Portal Satu Data Staner</title>
-    <meta content="" name="descriptison">
-    <meta content="" name="keywords">
+  <title><?= $title; ?> - Staner.id</title>
 
-    <!-- Favicons -->
-    <link href="<?= base_url(); ?>assets/img/favicon.png" rel="icon">
-    <link href="<?= base_url(); ?>assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
-    <!-- Vendor CSS Files -->
-    <link href="<?= base_url(); ?>assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="<?= base_url(); ?>assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-    <link href="<?= base_url(); ?>assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="<?= base_url(); ?>assets/vendor/venobox/venobox.css" rel="stylesheet">
-    <link href="<?= base_url(); ?>assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-
-    <!-- Template Main CSS File -->
-    <link href="<?= base_url(); ?>assets/css/style.css" rel="stylesheet">
-
-    <!-- =======================================================
-  * Template Name: eNno - v2.1.0
-  * Template URL: https://bootstrapmade.com/enno-free-simple-bootstrap-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <link rel="shortcut icon" type="image/png" href="<?= base_url(); ?>assets/img/icon/favicon.png" />
+  <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>assets/vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>assets/css/main.css">
+  <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>assets/css/animate.css">
+  <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>assets/css/custom.css">
+  <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>assets/vendor/font-awesome/css/font-awesome.min.css">
+  <link id="effect" rel="stylesheet" type="text/css" media="all" href="<?= base_url(); ?>assets/vendor/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" media="all" href="<?= base_url(); ?>assets/vendor/slick/slick-theme.css" />
+  <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>assets/vendor/hamburgers/css/hamburgers.min.css">
+  <link rel="stylesheet" type="text/css" media="all" href="<?= base_url(); ?>assets/vendor/slinky/css/slinky.min.css" />
+  <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>assets/vendor/plyr/plyr.css">
+  <style type="text/css">
+    .scrollable-menu {
+      height: auto;
+      max-height: 50vh;
+      overflow-x: hidden;
+    }
+  </style>
 </head>
