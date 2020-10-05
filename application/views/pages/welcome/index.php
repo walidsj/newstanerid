@@ -41,7 +41,7 @@
 					</span>
 				</div>
 			</header>
-			<section class="content-blank bg-gray pb-0">
+			<section class="content-blank bg-gray pb-0 pt-3">
 				<div class="container">
 					<div class="row">
 						<div class="col">
