@@ -44,6 +44,39 @@
 			<section class="content-blank bg-gray pb-0">
 				<div class="container">
 					<div class="row">
+						<div class="col">
+							<div class="card-body p-2">
+								<div class="card-author no-border align-items-center">
+									<img src="http://localhost/newstanerid/assets/img/tentor/cabbage.png" class="img-fluid img-profile mr-3" alt="">
+									<div class="info-profile">
+										<?php
+										$jam = date('H:i');
+
+										if ($jam > '05:30' && $jam < '10:00') {
+											$salam = 'Pagi';
+											$pertanyaan = 'Gimana kelas paginya?';
+										} elseif ($jam >= '10:00' && $jam < '15:00') {
+											$salam = 'Siang';
+											$pertanyaan = 'Mari makan siang.';
+										} elseif ($jam < '18:00') {
+											$salam = 'Sore';
+											$pertanyaan = 'Mandi sore dulu.';
+										} else {
+											$salam = 'Malam';
+											$pertanyaan = 'Jangan begadang ya';
+										}
+										?>
+										<p class="title pb-0 pl-0">Selamat <?= $salam; ?>, Staner!</p>
+										<div class="d-flex align-items-center mb-0">
+											<p class="text-default mb-0 mr-2"><?= $pertanyaan; ?></p>
+										</div>
+									</div>
+								</div>
+								<p class="text-default"></p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
 						<div class="col-12 ml-auto mr-auto">
 							<div class="container">
 								<div class="row">
