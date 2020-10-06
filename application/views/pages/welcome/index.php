@@ -10,25 +10,27 @@
 		<header id="headerSection" class="home-section">
 			<div id="demo" class="carousel slide" data-ride="carousel" data-interval="3000">
 				<div class="carousel-inner">
-					<div class="carousel-item active">
-						<?php foreach ($slide as $s) : ?>
-							<?php
-							if (strpos($s->slide_url, 'https://') !== false) {
-								$surl = $s->slide_url;
-							} elseif (strpos($s->slide_url, 'http://') !== false) {
-								$surl = $s->slide_url;
-							} else {
-								$surl = site_url() . $s->slide_url;
-							}
+					<?php
+					$i = 1;
+					foreach ($slide as $s) : ?>
+						<?php
+						if (strpos($s->slide_url, 'https://') !== false) {
+							$surl = $s->slide_url;
+						} elseif (strpos($s->slide_url, 'http://') !== false) {
+							$surl = $s->slide_url;
+						} else {
+							$surl = site_url() . $s->slide_url;
+						}
 
-							if (strpos($s->slide_image, 'https://') !== false) {
-								$simage = $s->slide_image;
-							} elseif (strpos($s->slide_image, 'http://') !== false) {
-								$simage = $s->slide_image;
-							} else {
-								$simage = base_url() . $s->slide_image;
-							}
-							?>
+						if (strpos($s->slide_image, 'https://') !== false) {
+							$simage = $s->slide_image;
+						} elseif (strpos($s->slide_image, 'http://') !== false) {
+							$simage = $s->slide_image;
+						} else {
+							$simage = base_url() . $s->slide_image;
+						}
+						?>
+						<div class="carousel-item <?= ($i == 1) ? 'active' : null; ?>">
 							<a href="<?= $surl; ?>">
 								<div>
 									<img class="d-block w-100" src="<?= $simage; ?>" alt="<?= $s->slide_judul; ?>">
@@ -40,8 +42,10 @@
 									</div>
 								</div>
 							</a>
-						<?php endforeach; ?>
-					</div>
+						</div>
+					<?php
+						$i++;
+					endforeach; ?>
 				</div>
 
 				<span class="d-md-block">
