@@ -4,6 +4,14 @@
 <?= $this->load->view('components/bottomnav', null, true); ?>
 <?= $this->load->view('components/sidenav', null, true); ?>
 
+<?php
+if ($user) {
+	$nama = explode(' ', str_replace('.', '', $user->nama))[0];
+} else {
+	$nama = 'Staner';
+}
+?>
+
 <div class="content-box content-other">
 	<!-- Timehelper -->
 	<div class="content-box content-home">
@@ -11,7 +19,7 @@
 			<div class="container">
 				<div class="row justify-content-between align-items-center">
 					<div class="col-12">
-						<h4 class="text-default font-700">Halo, <?= $user->nama; ?>!</h4>
+						<h4 class="text-default font-700">Halo, <?= $nama; ?>!</h4>
 						<p class="font-300 m-0">Profil Mahasiswa</p>
 					</div>
 				</div>
