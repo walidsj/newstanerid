@@ -9,7 +9,7 @@
 
   <title><?= $title; ?> - Staner.id</title>
 
-  <link rel="shortcut icon" type="image/png" href="<?= base_url(); ?>assets/img/icon/favicon.png" />
+  <link rel="shortcut icon" type="image/png" href="<?= base_url(); ?>assets/img/favicon.png" />
   <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>assets/vendor/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>assets/css/main.css">
   <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>assets/css/animate.css">
