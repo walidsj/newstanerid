@@ -63,7 +63,13 @@ class Registrasi extends CI_Controller
 	public function logout()
 	{
 		if (setlogoutstate() == true) {
-			if ($this->google->logout() == true) {
+			if ($this->google->isLoggedIn() == true) {
+				if ($this->google->logout() == true) {
+					redirect('/');
+				} else {
+					redirect('akun');
+				}
+			} else {
 				redirect('/');
 			}
 		}

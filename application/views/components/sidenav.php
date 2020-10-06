@@ -24,6 +24,9 @@
                         </div>
                         <p class="text-default"></p>
                     </div>
+                    <div class="d-flex-center">
+                        <a href="<?= site_url(); ?>registrasi/logout" class="btn btn-primary btn-md">Logout</a>
+                    </div>
                 <?php else : ?>
                     <div class="d-flex-center">
                         <a href="<?= site_url(); ?>registrasi" class="btn btn-default rad-80 mini-shadow btn-lg w-100">
