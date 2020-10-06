@@ -21,11 +21,19 @@ if ($user) {
 					<div class="col-12">
 						<h4 class="text-default font-700">Halo, <?= $nama; ?>!</h4>
 						<p class="font-300 m-0">Profil Mahasiswa</p>
-						<?php if (!empty($this->session->flasdata('alert'))) : ?>
+						<?php if (!empty($this->session->flashdata('alert'))) : ?>
 							<div class="alert alert-<?= $this->session->flashdata('alert')['type']; ?>" role="alert">
 								<?= $this->session->flashdata('alert')['message']; ?>
 							</div>
 						<?php endif; ?>
+						<?php
+						$image = base_url('assets/img/tentor/cabbage.png');
+
+						if (!empty($user->user_image)) {
+							$image = $user->user_image;
+						}
+						?>
+						<img style="border-radius:50%;" height="64" src="<?= $image; ?>" class="img-profile mt-3" alt="">
 					</div>
 				</div>
 			</div>

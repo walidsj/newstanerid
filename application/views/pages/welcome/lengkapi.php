@@ -19,7 +19,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <?= form_open('registrasi/npm'); ?>
+                            <?= form_open('registrasi/lengkapi'); ?>
                             <h5>Data Mahasiswa</h5>
                             <hr>
                             <div class="form-group">

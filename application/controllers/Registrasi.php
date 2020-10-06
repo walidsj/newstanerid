@@ -61,10 +61,10 @@ class Registrasi extends CI_Controller
 
 		//user telah login akun google
 		$data['akun'] = json_decode($this->google->getUserInfo());
+		$data['user'] = json_decode(json_encode(json_decode($this->curl->simple_get(getenv('REST_SERVER') . '/mahasiswa?access_token=' . getenv('REST_TOKEN') . '&npm=' . $this->session->npm), true)['data'][0]));
 		$this->form_validation->set_rules('whatsapp', 'No. WhatsApp', 'required|numeric|min_length[9]|max_length[13]');
 		$this->form_validation->set_rules('line', 'ID Line', 'required|max_length[32]');
 		if ($this->form_validation->run() == false) {
-			$data['user'] = json_decode(json_encode(json_decode($this->curl->simple_get(getenv('REST_SERVER') . '/mahasiswa?access_token=' . getenv('REST_TOKEN') . '&npm=' . $this->session->npm), true)['data'][0]));
 
 			$data['title'] = 'Lengkapi datamu';
 			$this->load->view('pages/welcome/lengkapi', $data);
@@ -72,28 +72,23 @@ class Registrasi extends CI_Controller
 			$datauser = [
 				'user_uid' => $data['akun']->id,
 				'user_email' => $data['akun']->email,
-				'user_npm' => $data['akun']->npm,
+				'user_npm' => $data['user']->npm,
 				'user_whatsapp' => $this->input->post('whatsapp', true),
 				'user_line' => $this->input->post('line', true),
-				'user_image' => $data['user']->picture,
+				'user_image' => $data['akun']->picture,
 				'user_created' => date('Y-m-d H:i:s', now()),
 				'user_status' => 1,
 			];
 			$this->db->insert('users', $datauser);
 			if ($this->db->affected_rows() > 0) {
-				$userlagi = $this->db->get_where('users', ['user_email' => $datauser['user_email']->email])
+				$userlagi = $this->db->get_where('users', ['user_email' => $datauser['user_email']])
 					->row();
-				if ($userlagi) {
-					//jika user login dan terdaftar di dalam data user database
-					if (setloginstate($userlagi->user_id, $userlagi->user_email) == true) {
-						$this->session->set_flashdata('alert', ['type' => 'danger', 'message' => 'Selamat! Pendaftaran berhasil.']);
-						redirect('akun');
-					} else {
-						redirect('/');
-					}
+				if (setloginstate($userlagi->user_id, $userlagi->user_email) == true) {
+					$this->session->unset_userdata('npm');
+					$this->session->set_flashdata('alert', ['type' => 'success', 'message' => 'Selamat! Pendaftaran berhasil.']);
+					redirect('akun');
 				} else {
-					//jika user login tetapi belum terdaftar
-					redirect('registrasi/npm');
+					redirect('/');
 				}
 			} else {
 				$this->session->set_flashdata('alert', ['type' => 'danger', 'message' => 'Maaf, pendaftaran gagal. Hubungi administrasi jika masalah masih berlanjut.']);
@@ -127,7 +122,7 @@ class Registrasi extends CI_Controller
 			$npm = $this->input->post('npm', true);
 			$response = $this->recaptcha->verifyResponse($captcha_answer);
 			if ($response['success']) {
-				$checkdb = $this->db->get_where('users', ['npm' => $npm])->row();
+				$checkdb = $this->db->get_where('users', ['user_npm' => $npm])->row();
 				if ($checkdb) {
 					$this->session->set_flashdata('alert', ['type' => 'danger', 'message' => 'NPM telah didaftarkan! Hubungi administrator jika kamu merasa belum pernah mendaftar dengan NPM ini.']);
 					redirect('registrasi/npm');

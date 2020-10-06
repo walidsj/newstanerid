@@ -41,7 +41,7 @@
 				<div class="row">
 					<div class="col">
 						<div class="card-body p-2">
-							<?php if (!empty($this->session->flasdata('alert'))) : ?>
+							<?php if (!empty($this->session->flashdata('alert'))) : ?>
 								<div class="alert alert-<?= $this->session->flashdata('alert')['type']; ?>" role="alert">
 									<?= $this->session->flashdata('alert')['message']; ?>
 								</div>

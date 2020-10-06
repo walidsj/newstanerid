@@ -14,7 +14,14 @@
                 <?php if ($user) : ?>
                     <div class="card-body p-3">
                         <div class="card-author no-border align-items-center mt-2 mb-2">
-                            <img src="<?= base_url(); ?>assets/img/tentor/cabbage.png" class="img-fluid img-profile" alt="">
+                            <?php
+                            $image = base_url('assets/img/tentor/cabbage.png');
+
+                            if (!empty($user->user_image)) {
+                                $image = $user->user_image;
+                            }
+                            ?>
+                            <img src="<?= $image; ?>" class="img-fluid img-profile" alt="">
                             <div class="info-profile">
                                 <p class="title pb-0 pl-0"><?= $user->nama; ?></p>
                                 <div class="d-flex align-items-center mb-0">

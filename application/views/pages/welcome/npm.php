@@ -10,7 +10,7 @@
                 <div class="row justify-content-between align-items-center">
                     <div class="col-12">
                         <h4 class="text-default font-700 m-0">Register NPM</h4>
-                        <?php if (!empty($this->session->flasdata('alert'))) : ?>
+                        <?php if (!empty($this->session->flashdata('alert'))) : ?>
                             <div class="alert alert-<?= $this->session->flashdata('alert')['type']; ?>" role="alert">
                                 <?= $this->session->flashdata('alert')['message']; ?>
                             </div>
