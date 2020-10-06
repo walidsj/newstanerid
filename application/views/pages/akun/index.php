@@ -31,12 +31,12 @@ if ($user) {
 					<div class="row">
 						<div class="col-12">
 							<div class="form-group">
-								<label class="text-default font-600 w-100">Alamat Email</label>
-								<input type="text" class="form-control" value="<?= $user->user_email; ?>" disabled>
-							</div>
-							<div class="form-group">
 								<label class="text-default font-600 w-100">Nama Lengkap</label>
 								<input type="text" class="form-control" value="<?= $user->nama; ?>" disabled>
+							</div>
+							<div class="form-group">
+								<label class="text-default font-600 w-100">Alamat Email</label>
+								<input type="text" class="form-control" value="<?= $user->user_email; ?>" disabled>
 							</div>
 							<div class="form-group">
 								<label class="text-default font-600 w-100">NPM</label>
