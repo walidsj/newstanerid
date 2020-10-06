@@ -28,6 +28,7 @@ class Event extends CI_Controller
 
 		$data['polling'] = $this->db->get_where('event_pollings', ['epolling_slug' => $slug])->row();
 		if ($data['polling']) {
+			$data['polling_item'] = $this->db->get_where('event_polling_items', ['epolling_polling_id' => $data['polling']->epolling_id, 'epolling_item_status' => 1])->result();
 			$data['title'] = $data['polling']->epolling_judul;
 			$this->load->view('pages/event/polling', $data);
 		} else {
