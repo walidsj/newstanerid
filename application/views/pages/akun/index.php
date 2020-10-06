@@ -20,7 +20,7 @@ if ($user) {
 				<div class="row justify-content-between align-items-center">
 					<div class="col-12">
 						<h4 class="text-default font-700">Halo, <?= $nama; ?>!</h4>
-						<p class="font-300 m-0">Profil Mahasiswa</p>
+						<p class="font-300 m-0"><?= $user->user_email; ?></p>
 						<?php if (!empty($this->session->flashdata('alert'))) : ?>
 							<div class="alert alert-<?= $this->session->flashdata('alert')['type']; ?>" role="alert">
 								<?= $this->session->flashdata('alert')['message']; ?>
@@ -46,10 +46,6 @@ if ($user) {
 							<div class="form-group">
 								<label class="text-default font-600 w-100">Nama Lengkap</label>
 								<input type="text" class="form-control" value="<?= $user->nama; ?>" disabled>
-							</div>
-							<div class="form-group">
-								<label class="text-default font-600 w-100">Alamat Email</label>
-								<input type="text" class="form-control" value="<?= $user->user_email; ?>" disabled>
 							</div>
 							<div class="form-group">
 								<label class="text-default font-600 w-100">NPM</label>
