@@ -41,6 +41,11 @@
 				<div class="row">
 					<div class="col">
 						<div class="card-body p-2">
+							<?php if (!empty($this->session->flasdata('alert'))) : ?>
+								<div class="alert alert-<?= $this->session->flashdata('alert')['type']; ?>" role="alert">
+									<?= $this->session->flashdata('alert')['message']; ?>
+								</div>
+							<?php endif; ?>
 							<div class="card-author no-border align-items-center">
 								<img src="<?= base_url(); ?>assets/img/tentor/cabbage.png" class="img-fluid img-profile mr-3" alt="">
 								<div class="info-profile">

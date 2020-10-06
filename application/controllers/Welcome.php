@@ -7,6 +7,11 @@ class Welcome extends CI_Controller
 	{
 		parent::__construct();
 		$this->user = checkloginstate();
+
+		//blocking npm
+		if ($this->session->npm) {
+			redirect('registrasi/lengkapi');
+		}
 	}
 
 	public function index()

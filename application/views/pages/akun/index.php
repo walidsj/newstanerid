@@ -21,6 +21,11 @@ if ($user) {
 					<div class="col-12">
 						<h4 class="text-default font-700">Halo, <?= $nama; ?>!</h4>
 						<p class="font-300 m-0">Profil Mahasiswa</p>
+						<?php if (!empty($this->session->flasdata('alert'))) : ?>
+							<div class="alert alert-<?= $this->session->flashdata('alert')['type']; ?>" role="alert">
+								<?= $this->session->flashdata('alert')['message']; ?>
+							</div>
+						<?php endif; ?>
 					</div>
 				</div>
 			</div>
