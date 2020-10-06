@@ -25,7 +25,8 @@
                         <p class="text-default"></p>
                     </div>
                     <div class="d-flex-center">
-                        <a href="<?= site_url(); ?>registrasi/logout" class="btn btn-primary btn-md">Logout</a>
+                        <a href="<?= site_url(); ?>akun" class="btn btn-primary mx-1">Lihat Profil</a>
+                        <a href="<?= site_url(); ?>registrasi/logout" class="btn btn-secondary mx-1">Logout</a>
                     </div>
                 <?php else : ?>
                     <div class="d-flex-center">
