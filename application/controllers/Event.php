@@ -19,4 +19,19 @@ class Event extends CI_Controller
 		$data['title'] = 'Event Terbaru';
 		$this->load->view('pages/event/index', $data);
 	}
+
+	public function polling($slug = null)
+	{
+		if ($slug == null) {
+			show_404();
+		}
+
+		$data['polling'] = $this->db->get_where('event_pollings', ['epolling_slug' => $slug])->row();
+		if ($data['polling']) {
+			$data['title'] = $data['polling']->epolling_judul;
+			$this->load->view('pages/event/polling', $data);
+		} else {
+			show_404();
+		}
+	}
 }
