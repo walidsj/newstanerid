@@ -26,6 +26,13 @@
 					</div>
 				</div>
 			</section>
+			<section class="content-blank bg1-pattern pt-0">
+				<div class="container">
+					<div class="row">
+
+					</div>
+				</div>
+			</section>
 		</div>
 	</div>
 
