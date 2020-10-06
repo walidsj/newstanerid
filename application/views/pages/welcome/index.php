@@ -158,19 +158,38 @@
 				<h4 class="text-capitalize head-title">Event terbaru</h4>
 				<div class="p-relative">
 					<div class="slick_kelas-favorit slick-custom slick-card-same-height">
-						<a href="<?= site_url(); ?>">
-							<div class="card card-slick-custom">
-								<div class="block-over-img">
-									<img class="card-img-top w-100" style="" src="<?= base_url(); ?>assets/img/badges/bigb.png">
-								</div>
-								<div class="card-body p-3">
-									<h6 class="card-title mb-0" data-toggle="tooltip" data-placement="top" title="" data-original-title="BigB Plan Competition"><strong>BigB Plan Competition</strong>: We Dare You to Plan The Future</h6>
-									<div class="card-author-katalog align-items-center mt-2">
-										<p class="card-text"><span class="fs-14 font-400">Kementerian Ekraf <i class="fa fa-check-circle text-tertiary" data-toggle="tooltip" data-placement="top" title="" data-original-title="Akun Resmi"></i></span></p>
+						<?php foreach ($event as $e) : ?>
+							<?php
+							if (strpos($e->event_url, 'https://') !== false) {
+								$url = $e->event_url;
+							} elseif (strpos($e->event_url, 'http://') !== false) {
+								$url = $e->event_url;
+							} else {
+								$url = site_url() . $e->event_url;
+							}
+
+							if (strpos($e->event_image, 'https://') !== false) {
+								$image = $e->event_image;
+							} elseif (strpos($e->event_image, 'http://') !== false) {
+								$image = $e->event_image;
+							} else {
+								$image = base_url() . $e->event_image;
+							}
+							?>
+							<a href="<?= $url; ?>">
+								<div class="card card-slick-custom">
+									<div class="block-over-img">
+										<img class="card-img-top w-100" style="" src="<?= $image; ?>">
+									</div>
+									<div class="card-body p-3">
+										<h6 class="card-title mb-0" data-toggle="tooltip" data-placement="top" title="" data-original-title="<?= $e->event_judul; ?> - <?= $e->event_penyelenggara; ?>"><?= $e->event_judul; ?></h6>
+										<div class="card-author-katalog align-items-center mt-2">
+											<p class="card-text"><span class="fs-14 font-400"><?= $e->event_penyelenggara; ?> <i class="fa fa-check-circle text-tertiary" data-toggle="tooltip" data-placement="top" title="" data-original-title="Akun Resmi"></i></span></p>
+										</div>
 									</div>
 								</div>
-							</div>
-						</a>
+							</a>
+						<?php endforeach; ?>
 					</div>
 
 					<div class="slick-arrow-block arrow-kelas-favorit">

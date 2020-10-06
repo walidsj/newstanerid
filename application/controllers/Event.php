@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class Welcome extends CI_Controller
+class Event extends CI_Controller
 {
 	public function __construct()
 	{
@@ -16,7 +16,7 @@ class Welcome extends CI_Controller
 		$data['event'] = $this->db->order_by('event_tanggalstart', 'ASC')
 			->get_where('events', ['event_status' => 1])->result();
 
-		$data['title'] = 'Halo!';
-		$this->load->view('pages/welcome/index', $data);
+		$data['title'] = 'Event Terbaru';
+		$this->load->view('pages/event/index', $data);
 	}
 }
