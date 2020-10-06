@@ -30,7 +30,7 @@
 							}
 							?>
 							<a href="<?= $surl; ?>">
-								<div class="">
+								<div>
 									<img class="d-block w-100" src="<?= $simage; ?>" alt="<?= $s->slide_judul; ?>">
 								</div>
 								<div class="carousel-caption container d-flex align-items-center">
