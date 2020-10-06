@@ -65,8 +65,15 @@
 											$salam = 'Malam';
 											$pertanyaan = 'Jangan begadang ya';
 										}
+
+
+										if ($user) {
+											$nama = explode(' ', str_replace('.', '', $user->nama))[0];
+										} else {
+											$nama = 'Staner';
+										}
 										?>
-										<p class="title pb-0 pl-0">Selamat <?= $salam; ?>, Staner!</p>
+										<p class="title pb-0 pl-0">Selamat <?= $salam; ?>, <?= $nama; ?>!</p>
 										<div class="d-flex align-items-center mb-0">
 											<p class="text-default mb-0 mr-2"><?= $pertanyaan; ?></p>
 										</div>
@@ -157,9 +164,8 @@
 										<img class="card-img-top w-100" style="" src="<?= base_url(); ?>assets/img/badges/bigb.png">
 									</div>
 									<div class="card-body p-3">
-										<h6 class="card-title mb-0" data-toggle="tooltip" data-placement="top" title="" data-original-title="BigB Plan Competition"><strong>BigB Plan Competition</strong>: We Dare to Plan The Future</h6>
+										<h6 class="card-title mb-0" data-toggle="tooltip" data-placement="top" title="" data-original-title="BigB Plan Competition"><strong>BigB Plan Competition</strong>: We Dare You to Plan The Future</h6>
 										<div class="card-author-katalog align-items-center mt-2">
-											<img src="<?= base_url(); ?>assets/img/tentor/cabbage.png" class="img-fluid img-profile" alt="Kementerian Ekonomi Kreatif">
 											<p class="card-text"><span class="fs-14 font-400">Kementerian Ekraf <i class="fa fa-check-circle text-tertiary" data-toggle="tooltip" data-placement="top" title="" data-original-title="Akun Resmi"></i></span></p>
 										</div>
 									</div>

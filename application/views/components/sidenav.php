@@ -24,15 +24,16 @@
                         </div>
                         <p class="text-default"></p>
                     </div>
+                <?php else : ?>
+                    <div class="d-flex-center">
+                        <a href="<?= site_url(); ?>registrasi" class="btn btn-default rad-80 mini-shadow btn-lg w-100">
+                            <div class="d-flex align-items-center justify-content-center">
+                                <img src="<?= base_url(); ?>assets/img/icon/google.png" class="img-fluid mr-3" width="18" alt="">
+                                <p class="text-default font-600 mb-0">Login with Google</p>
+                            </div>
+                        </a>
+                    </div>
                 <?php endif; ?>
-                <div class="d-flex-center">
-                    <a href="<?= site_url(); ?>registrasi" class="btn btn-default rad-80 mini-shadow btn-lg w-100">
-                        <div class="d-flex align-items-center justify-content-center">
-                            <img src="<?= base_url(); ?>assets/img/icon/google.png" class="img-fluid mr-3" width="18" alt="">
-                            <p class="text-default font-600 mb-0">Login with Google</p>
-                        </div>
-                    </a>
-                </div>
             </ul>
         </div>
     </div>
