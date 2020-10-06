@@ -4,14 +4,6 @@
 <?= $this->load->view('components/bottomnav', null, true); ?>
 <?= $this->load->view('components/sidenav', null, true); ?>
 
-<?php
-if ($user) {
-	$nama = explode(' ', str_replace('.', '', $user->nama))[0];
-} else {
-	$nama = 'Staner';
-}
-?>
-
 <div class="content-box content-other">
 	<!-- Timehelper -->
 	<div class="content-box content-home">
@@ -19,7 +11,7 @@ if ($user) {
 			<div class="container">
 				<div class="row justify-content-between align-items-center">
 					<div class="col-12">
-						<h4 class="text-default font-700">Halo, <?= $nama; ?>!</h4>
+						<h4 class="text-default font-700 m-0"><?= $user->nama; ?></h4>
 						<p class="font-300 m-0"><?= $user->user_email; ?></p>
 						<?php if (!empty($this->session->flashdata('alert'))) : ?>
 							<div class="alert alert-<?= $this->session->flashdata('alert')['type']; ?>" role="alert">
@@ -43,10 +35,6 @@ if ($user) {
 				<div class="container">
 					<div class="row">
 						<div class="col-12">
-							<div class="form-group">
-								<label class="text-default font-600 w-100">Nama Lengkap</label>
-								<input type="text" class="form-control" value="<?= $user->nama; ?>" disabled>
-							</div>
 							<div class="form-group">
 								<label class="text-default font-600 w-100">NPM</label>
 								<input type="text" class="form-control" value="<?= $user->npm; ?>" disabled>
