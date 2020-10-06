@@ -81,8 +81,20 @@ class Registrasi extends CI_Controller
 			];
 			$this->db->insert('users', $datauser);
 			if ($this->db->affected_rows() > 0) {
-				$this->session->set_flashdata('alert', ['type' => 'danger', 'message' => 'Selamat! Pendaftaran berhasil.']);
-				redirect('akun');
+				$userlagi = $this->db->get_where('users', ['user_email' => $datauser['user_email']->email])
+					->row();
+				if ($userlagi) {
+					//jika user login dan terdaftar di dalam data user database
+					if (setloginstate($userlagi->user_id, $userlagi->user_email) == true) {
+						$this->session->set_flashdata('alert', ['type' => 'danger', 'message' => 'Selamat! Pendaftaran berhasil.']);
+						redirect('akun');
+					} else {
+						redirect('/');
+					}
+				} else {
+					//jika user login tetapi belum terdaftar
+					redirect('registrasi/npm');
+				}
 			} else {
 				$this->session->set_flashdata('alert', ['type' => 'danger', 'message' => 'Maaf, pendaftaran gagal. Hubungi administrasi jika masalah masih berlanjut.']);
 				redirect('/');
