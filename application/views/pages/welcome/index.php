@@ -11,17 +11,36 @@
 			<div id="demo" class="carousel slide" data-ride="carousel" data-interval="3000">
 				<div class="carousel-inner">
 					<div class="carousel-item active">
-						<a href="<?= site_url(); ?>">
-							<div class="">
-								<img class="d-block w-100" src="<?= base_url(); ?>assets/img/slides/slide01.png" alt="BEM APPS Slide">
-							</div>
-							<div class="carousel-caption container d-flex align-items-center">
-								<div class="text-block">
-									<h5></h5>
-									<p><br><br><br><br><br></p>
+						<?php foreach ($slide as $s) : ?>
+							<?php
+							if (strpos($s->slide_url, 'https://') !== false) {
+								$surl = $s->slide_url;
+							} elseif (strpos($s->slide_url, 'http://') !== false) {
+								$surl = $s->slide_url;
+							} else {
+								$surl = site_url() . $s->slide_url;
+							}
+
+							if (strpos($s->slide_image, 'https://') !== false) {
+								$simage = $s->slide_image;
+							} elseif (strpos($s->slide_image, 'http://') !== false) {
+								$simage = $s->slide_image;
+							} else {
+								$simage = base_url() . $s->slide_image;
+							}
+							?>
+							<a href="<?= $surl; ?>">
+								<div class="">
+									<img class="d-block w-100" src="<?= $simage; ?>" alt="<?= $s->slide_judul; ?>">
 								</div>
-							</div>
-						</a>
+								<div class="carousel-caption container d-flex align-items-center">
+									<div class="text-block">
+										<h5></h5>
+										<p><br><br><br><br><br></p>
+									</div>
+								</div>
+							</a>
+						<?php endforeach; ?>
 					</div>
 				</div>
 
