@@ -26,6 +26,10 @@ class Event extends CI_Controller
 			show_404();
 		}
 
+		if ($this->user == false) {
+			redirect('registrasi');
+		}
+
 		$data['user'] = $this->user;
 
 		$data['polling'] = $this->db->get_where('event_pollings', ['epolling_slug' => $slug])->row();
