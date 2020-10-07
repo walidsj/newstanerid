@@ -10,6 +10,11 @@
 		<section class="content-blank bg-gray py-5 mb-5">
 			<div class="container">
 				<h4 class="text-capitalize head-title">Event terbaru</h4>
+				<?php if (!empty($this->session->flashdata('alert'))) : ?>
+					<div class="alert alert-<?= $this->session->flashdata('alert')['type']; ?>" role="alert">
+						<?= $this->session->flashdata('alert')['message']; ?>
+					</div>
+				<?php endif; ?>
 				<div class="p-relative">
 					<div class="slick_kelas-favorit slick-custom slick-card-same-height">
 						<?php foreach ($event as $e) : ?>

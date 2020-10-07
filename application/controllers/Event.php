@@ -41,4 +41,35 @@ class Event extends CI_Controller
 			show_404();
 		}
 	}
+
+	public function polling_add($id_polling = null, $id_item = null)
+	{
+		if ($id_item == null || $id_polling == null) {
+			show_404();
+		}
+
+		if ($this->user == false) {
+			redirect('registrasi');
+		}
+
+		$data['polling'] = $this->db->get_where('event_polling_items', ['epolling_item_id' => $id_item])->row();
+		if ($data['polling']) {
+			$checkresult =
+				$this->db->get_where('event_polling_results', ['epolling_user_id' => $this->user->user_id, 'epolling_polling_id' => $id_polling])->row();
+
+			if ($checkresult) {
+				$this->session->set_flashdata('alert', ['type' => 'danger', 'message' => 'Kamu sudah melakukan voting itu sebelumnya.']);
+				redirect('event');
+			} else {
+				$this->db->insert('event_polling_results', ['epolling_item_id' => $id_item, 'epolling_user_id' => $this->user->user_id, 'epolling_polling_id' => $id_polling]);
+
+				if ($this->db->affected_rows() > 0) {
+					$this->session->set_flashdata('alert', ['type' => 'success', 'message' => 'Voting berhasil direkam.']);
+					redirect('event');
+				}
+			}
+		} else {
+			show_404();
+		}
+	}
 }

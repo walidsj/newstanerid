@@ -19,7 +19,9 @@
 						<?php foreach ($polling_item as $pi) : ?>
 							<div class="col-12">
 								<div class="form-group">
-									<img width="100%" class="img" src="<?= base_url($pi->epolling_item_image); ?>">
+									<a href="<?= site_url(); ?>event/polling-add/<?= $polling->epolling_id; ?>/<?= $pi->epolling_item_id; ?>">
+										<img width="100%" class="img" src="<?= base_url($pi->epolling_item_image); ?>">
+									</a>
 								</div>
 							</div>
 						<?php endforeach; ?>
