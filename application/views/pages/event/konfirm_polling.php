@@ -11,12 +11,19 @@
 				<div class="container">
 					<div class="row">
 						<?= form_open(current_url());?>
-							<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+							<div class="col-12">
 								<div class="form-group mt-5">
 									<img width="100%" class="img" src="<?= base_url($polling->epolling_item_image); ?>">
 								</div>
 								<div class="form-group">
+									<span class="text-muted"><?= $polling->epolling_item_deskripsi;?></span>
+</div>
+								<div class="form-group mb-2">
+									<a href="<?= base_url($polling->epolling_item_pdf);?>"><span class="text-primary">Lihat Abstraksi (PDF)</span></a>
+</div>
+								<div class="form-group">
 									<?= $this->recaptcha->render();?>
+									<?= (!empty(form_error('g-recaptcha-response'))) ? form_error('g-recaptcha-response', '<small class="text-danger">', '</small>') : null; ?>
 								</div>
 								<div class="form-group">
 									<button class="btn btn-block btn-primary" type="submit">Vote</button>
