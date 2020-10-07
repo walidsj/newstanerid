@@ -23,34 +23,34 @@
                             <h5>Data Mahasiswa</h5>
                             <hr>
                             <div class="form-group">
-								<label class="text-default font-600 w-100">Nama Lengkap</label>
-								<input type="text" class="form-control" value="<?= $user->nama; ?>" disabled>
-							</div>
-							<div class="form-group">
-								<label class="text-default font-600 w-100">NPM</label>
-								<input type="text" class="form-control" value="<?= $user->npm; ?>" disabled>
-							</div>
-							<div class="form-group">
-								<label class="text-default font-600 w-100">Jurusan</label>
-								<input type="text" class="form-control" value="<?= $user->jurusan; ?>" disabled>
-							</div>
-							<div class="form-group">
-								<label class="text-default font-600 w-100">Program Studi</label>
-								<input type="text" class="form-control" value="<?= $user->prodi; ?>" disabled>
-							</div>
-							<div class="form-group">
-								<label class="text-default font-600 w-100">Tahun Angkatan</label>
-								<input type="text" class="form-control" value="<?= $user->angkatan; ?>" disabled>
-							</div>
-							<div class="form-group">
-								<label class="text-default font-600 w-100">Kelas</label>
-								<input type="text" class="form-control" value="<?= $user->kelas; ?>" disabled>
+                                <label class="text-default font-600 w-100">Nama Lengkap</label>
+                                <input type="text" class="form-control" value="<?= $user->nama; ?>" disabled>
+                            </div>
+                            <div class="form-group">
+                                <label class="text-default font-600 w-100">NPM</label>
+                                <input type="text" class="form-control" value="<?= $user->npm; ?>" disabled>
+                            </div>
+                            <div class="form-group">
+                                <label class="text-default font-600 w-100">Jurusan</label>
+                                <input type="text" class="form-control" value="<?= $user->jurusan; ?>" disabled>
+                            </div>
+                            <div class="form-group">
+                                <label class="text-default font-600 w-100">Program Studi</label>
+                                <input type="text" class="form-control" value="<?= $user->prodi; ?>" disabled>
+                            </div>
+                            <div class="form-group">
+                                <label class="text-default font-600 w-100">Tahun Angkatan</label>
+                                <input type="text" class="form-control" value="<?= $user->angkatan; ?>" disabled>
+                            </div>
+                            <div class="form-group">
+                                <label class="text-default font-600 w-100">Kelas</label>
+                                <input type="text" class="form-control" value="<?= $user->kelas; ?>" disabled>
                             </div>
                             <h5 class="pt-3">Data Akun</h5>
                             <hr>
                             <div class="form-group">
-								<label class="text-default font-600 w-100">Alamat Email</label>
-								<input type="text" class="form-control" value="<?= $akun->email; ?>" disabled>
+                                <label class="text-default font-600 w-100">Alamat Email</label>
+                                <input type="text" class="form-control" value="<?= $akun->email; ?>" disabled>
                             </div>
                             <div class="form-group">
                                 <label class="text-default font-600 w-100">No. WhatsApp</label>
@@ -64,12 +64,15 @@
                             </div>
                             <div class="form-group">
                                 <label class="text-default font-600 w-100">Foto Profil</label>
-                                <img class="img" style="border-radius:50%" height="64" src="<?= $akun->picture;?>" alt="<?= $user->nama;?>">
+                                <img class="img" style="border-radius:50%" height="64" src="<?= $akun->picture; ?>" alt="<?= $user->nama; ?>">
                             </div>
                             <div class="form-group">
                                 <button type="submit" class="btn btn-block btn-primary"><i class="fa fa-save mr-2"></i>Simpan</button>
                             </div>
                             <?= form_close(); ?>
+                            <div class="form-group mt-5">
+                                <a href="<?= site_url(); ?>registrasi/logout" class="btn btn-block btn-secondary">Batalkan</a>
+                            </div>
                         </div>
                     </div>
                 </div>
