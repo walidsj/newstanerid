@@ -22,6 +22,7 @@
 									<a href="<?= site_url(); ?>event/polling-add/<?= $polling->epolling_id; ?>/<?= $pi->epolling_item_id; ?>">
 										<img width="100%" class="img" src="<?= base_url($pi->epolling_item_image); ?>">
 									</a>
+									<h6 class="text-center text-white font-600"><?= $this->db->get_where('event_polling_results', ['epolling_item_id' => $pi->epolling_item_id])->num_rows(); ?></h6>
 								</div>
 							</div>
 						<?php endforeach; ?>
