@@ -18,8 +18,8 @@
 								<div class="form-group">
 									<span class="text-muted"><?= $polling->epolling_item_deskripsi;?></span>
 </div>
-								<div class="form-group mb-2">
-									<a href="<?= base_url($polling->epolling_item_pdf);?>"><span class="text-primary">Lihat Abstraksi (PDF)</span></a>
+								<div class="form-group mb-3">
+									<a href="<?= base_url($polling->epolling_item_pdf);?>"><span class="text-primary"><i class="fa fa-download mr-2"></i>Lihat Abstraksi (PDF)</span></a>
 </div>
 								<div class="form-group">
 									<?= $this->recaptcha->render();?>
