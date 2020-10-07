@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="description" content="Luarsekolah merupakan wadah belajar dan mengajar pelajaran non-formal / alternatif dengan cara menyediakan kelas pengajaran dalam bentuk online dan offline untuk memudahkan pemuda dan pemudi Indonesia dalam mempelajarinya">
+  <meta name="description" content="Staner.id adalah aplikasi khusus untuk mahasiswa dan mahasiswi PKN STAN kampus kedinasan Kementerian Keuangan Republik Indonesia">
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
   <title><?= $title; ?> - Staner.id</title>
