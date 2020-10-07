@@ -30,14 +30,25 @@
                 <li class="nav-item">
                     <a class="nav-link" href="<?= site_url(); ?>berita">Berita</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="<?= site_url(); ?>tentang">Tentang</a>
-                </li>
-                <li class="nav-item btn-nav">
-                    <div class="path-bg-btn">
-                        <a href="<?= site_url(); ?>registrasi" class="btn btn-danger btn-path-wave btn-md">Masuk</a>
-                    </div>
-                </li>
+                <?php if ($user) : ?>
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?= site_url(); ?>akun">Akun</a>
+                    </li>
+                    <li class="nav-item btn-nav">
+                        <div class="path-bg-btn">
+                            <a href="<?= site_url(); ?>registrasi/logout" class="btn btn-danger btn-path-wave btn-md">Logout</a>
+                        </div>
+                    </li>
+                <?php else : ?>
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?= site_url(); ?>tentang">Tentang</a>
+                    </li>
+                    <li class="nav-item btn-nav">
+                        <div class="path-bg-btn">
+                            <a href="<?= site_url(); ?>registrasi" class="btn btn-danger btn-path-wave btn-md">Masuk</a>
+                        </div>
+                    </li>
+                <?php endif; ?>
             </ul>
         </div>
     </div>
