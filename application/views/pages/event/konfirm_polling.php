@@ -13,11 +13,16 @@
 						<?= form_open(current_url());?>
 							<div class="col-12 col-sm-6 col-md-4 col-lg-3">
 								<div class="form-group">
-										<img width="100%" class="img" src="<?= base_url($polling->epolling_item_image); ?>">
+									<img width="100%" class="img" src="<?= base_url($polling->epolling_item_image); ?>">
+								</div>
+								<div class="form-group">
+									<?= $this->recaptcha->render();?>
+								</div>
+								<div class="form-group">
+									<button class="btn btn-primary" type="submit">Vote</button>
 								</div>
 							</div>
-							<?= $this->recaptcha->render();?>
-							<button class="btn btn-primary" type="submit">Vote</button>
+							
 							<?= form_close();?>
 					</div>
 				</div>
