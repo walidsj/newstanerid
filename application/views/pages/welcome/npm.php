@@ -42,7 +42,7 @@
                             </div>
                             <?= form_close(); ?>
                             <div class="form-group">
-                                <a href="<?= site_url(); ?>registrasi/logout" class="btn btn-block btn-secondary">Batalkan</button>
+                                <a href="<?= site_url(); ?>registrasi/logout" class="btn btn-block btn-secondary">Batalkan</a>
                             </div>
                         </div>
                     </div>
