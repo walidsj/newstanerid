@@ -115,6 +115,7 @@ class Registrasi extends CI_Controller
 		$this->form_validation->set_rules('npm', 'NPM', 'required|numeric|exact_length[10]');
 		$this->form_validation->set_rules('g-recaptcha-response', 'Google Recaptcha', 'required');
 		if ($this->form_validation->run() == false) {
+			$data['user'] = null;
 			$data['title'] = 'Lengkapi datamu';
 			$this->load->view('pages/welcome/npm', $data);
 		} else {
