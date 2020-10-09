@@ -128,8 +128,14 @@ class Registrasi extends CI_Controller
 					$this->session->set_flashdata('alert', ['type' => 'danger', 'message' => 'NPM telah didaftarkan! Hubungi administrator jika kamu merasa belum pernah mendaftar dengan NPM ini.']);
 					redirect('registrasi/npm');
 				} else {
-					$this->session->set_userdata('npm', $npm);
-					redirect('registrasi/lengkapi');
+					$data['user'] = json_decode(json_encode(json_decode($this->curl->simple_get(getenv('REST_SERVER') . '/mahasiswa?access_token=' . getenv('REST_TOKEN') . '&npm=' . $this->session->npm), true)['data'][0]));
+					if ($data['user']) {
+						$this->session->set_userdata('npm', $npm);
+						redirect('registrasi/lengkapi');
+					} else {
+						$this->session->set_flashdata('alert', ['type' => 'danger', 'message' => 'NPM dengan nomor itu ngga ada.']);
+						redirect('registrasi/npm');
+					}
 				}
 			} else {
 				$this->session->set_flashdata('alert', ['type' => 'danger', 'message' => 'Google recaptcha salah!']);
