@@ -133,7 +133,7 @@ class Registrasi extends CI_Controller
 						$this->session->set_userdata('npm', $npm);
 						redirect('registrasi/lengkapi');
 					} else {
-						$this->session->set_flashdata('alert', ['type' => 'danger', 'message' => 'NPM dengan nomor itu ngga ada.']);
+						$this->session->set_flashdata('alert', ['type' => 'danger', 'message' => 'NPM dengan nomor itu ngga ada. Hubungi administrator jika kamu yakin npm sudah diisi benar.']);
 						redirect('registrasi/npm');
 					}
 				}
