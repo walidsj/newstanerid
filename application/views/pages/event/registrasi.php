@@ -19,7 +19,7 @@
 							<div class="col-12 mb-3"><a href="http://localhost/newstanerid/persuratan">
 									<div class="card">
 										<div class="card-body">
-											<div class="d-flex flex-wrap"><img class="mb-2" src="<?= base_url(); ?>assets/img/menu/talk.png" height="64" alt="">
+											<div class="d-flex flex-wrap"><img class="mb-2" src="<?= base_url(); ?>assets/img/menu/talk.png" height="48" alt="">
 												<div class="ml-3">
 													<p class="text-default mb-0">Lomba KTI</p>
 												</div>
@@ -30,7 +30,7 @@
 							<div class="col-12 mb-3"><a href="http://localhost/newstanerid/advokasi">
 									<div class="card">
 										<div class="card-body">
-											<div class="d-flex flex-wrap"><img class="mb-2" src="<?= base_url(); ?>assets/img/menu/collaboration.png" height="64" alt="">
+											<div class="d-flex flex-wrap"><img class="mb-2" src="<?= base_url(); ?>assets/img/menu/collaboration.png" height="48" alt="">
 												<div class="ml-3">
 													<p class="text-default mb-0">Lomba Esai</p>
 												</div>
@@ -41,7 +41,7 @@
 							<div class="col-12 mb-3"><a href="http://localhost/newstanerid/perizinan">
 									<div class="card">
 										<div class="card-body">
-											<div class="d-flex flex-wrap"><img class="mb-2" src="<?= base_url(); ?>assets/img/menu/no-war.png" height="64" alt="">
+											<div class="d-flex flex-wrap"><img class="mb-2" src="<?= base_url(); ?>assets/img/menu/no-war.png" height="48" alt="">
 												<div class="ml-3">
 													<p class="text-default mb-0">Lomba Desain</p>
 												</div>
@@ -52,7 +52,7 @@
 							<div class="col-12 mb-3"><a href="http://localhost/newstanerid/pengaduan">
 									<div class="card">
 										<div class="card-body">
-											<div class="d-flex flex-wrap"><img class="mb-2" src="<?= base_url(); ?>assets/img/menu/balance.png" height="64" alt="">
+											<div class="d-flex flex-wrap"><img class="mb-2" src="<?= base_url(); ?>assets/img/menu/balance.png" height="48" alt="">
 												<div class="ml-3">
 													<p class="text-default mb-0">Lomba Videografi</p>
 												</div>
@@ -63,7 +63,7 @@
 							<div class="col-12 mb-3"><a href="http://localhost/newstanerid/pengaduan">
 									<div class="card">
 										<div class="card-body">
-											<div class="d-flex flex-wrap"><img class="mb-2" src="<?= base_url(); ?>assets/img/menu/balance.png" height="64" alt="">
+											<div class="d-flex flex-wrap"><img class="mb-2" src="<?= base_url(); ?>assets/img/menu/balance.png" height="48" alt="">
 												<div class="ml-3">
 													<p class="text-default mb-0">Forum Keuangan Negara</p>
 												</div>
