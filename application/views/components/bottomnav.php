@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg desktop-navigation other-navbar p-0 d-block d-md-none fixed-bottom">
+<nav class="navbar navbar-expand-lg desktop-navigation other-navbar p-0 d-block fixed-bottom">
     <div class="container">
         <ul class="menu-mobile-bottom">
             <li class="<?= ($this->uri->segment(1) == '') ? 'active' : ''; ?>">

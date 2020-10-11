@@ -110,13 +110,13 @@
 					<div class="col-12 ml-auto mr-auto">
 						<div class="container">
 							<div class="row">
-								<div class="col-6 col-md-3 mb-3 px-2">
+								<div class="col-6 mb-3 px-2">
 									<a href="<?= site_url(); ?>persuratan">
 										<div class="card">
 											<div class="card-body">
 												<div class="d-flex flex-wrap text-center">
 													<img class="mx-auto mb-2" src="<?= base_url(); ?>assets/img/menu/talk.png" class="img" height="64" alt="">
-													<div>
+													<div class="mx-auto">
 														<p class="text-default mb-0">Layanan Persuratan</p>
 													</div>
 												</div>
@@ -125,13 +125,13 @@
 									</a>
 								</div>
 
-								<div class="col-6 col-md-3 mb-3 px-2">
+								<div class="col-6 mb-3 px-2">
 									<a href="<?= site_url(); ?>advokasi">
 										<div class="card">
 											<div class="card-body">
 												<div class="d-flex flex-wrap text-center">
 													<img class="mx-auto mb-2" src="<?= base_url(); ?>assets/img/menu/collaboration.png" class="img" height="64" alt="">
-													<div>
+													<div class="mx-auto">
 														<p class="text-default mb-0">Layanan Advokasi</p>
 													</div>
 												</div>
@@ -140,13 +140,13 @@
 									</a>
 								</div>
 
-								<div class="col-6 col-md-3 mb-3 px-2">
+								<div class="col-6 mb-3 px-2">
 									<a href="<?= site_url(); ?>perizinan">
 										<div class="card">
 											<div class="card-body">
 												<div class="d-flex flex-wrap text-center">
 													<img class="mx-auto mb-2" src="<?= base_url(); ?>assets/img/menu/no-war.png" class="img" height="64" alt="">
-													<div>
+													<div class="mx-auto">
 														<p class="text-default mb-0">Akses Perizinan</p>
 													</div>
 												</div>
@@ -155,13 +155,13 @@
 									</a>
 								</div>
 
-								<div class="col-6 col-md-3 mb-3 px-2">
+								<div class="col-6 mb-3 px-2">
 									<a href="<?= site_url(); ?>pengaduan">
 										<div class="card">
 											<div class="card-body">
 												<div class="d-flex flex-wrap text-center">
 													<img class="mx-auto mb-2" src="<?= base_url(); ?>assets/img/menu/balance.png" class="img" height="64" alt="">
-													<div>
+													<div class="mx-auto">
 														<p class="text-default mb-0">Portal Pengaduan</p>
 													</div>
 												</div>

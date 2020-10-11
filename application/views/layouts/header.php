@@ -26,7 +26,41 @@
       max-height: 50vh;
       overflow-x: hidden;
     }
+
+    #root {
+      width: 100%;
+      max-width: 480px;
+      margin-left: auto;
+      margin-right: auto;
+      overflow: hidden;
+      box-shadow: 0 0 24px rgba(0, 0, 0, .15);
+      min-height: 100vh;
+      background-color: #fff;
+    }
+
+    body {
+      background: #f5f5f5 url(https://etanee.id/static/media/body-pattern.09a0373a.png) repeat 50%/224px;
+      background-attachment: fixed;
+    }
+
+    body,
+    html {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+    }
+
+    .navbar {
+      position: fixed;
+      background-color: #fff;
+      width: 100%;
+      z-index: 10;
+      max-width: 480px;
+      height: 72px;
+      margin: 0 auto;
+    }
   </style>
 </head>
 
 <body>
+  <div id="root">
