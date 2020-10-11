@@ -16,7 +16,7 @@
 				<div class="col-12 ml-auto mr-auto">
 					<div class="container">
 						<div class="row">
-							<div class="col-12 mb-3"><a href="http://localhost/newstanerid/persuratan">
+							<div class="col-12 mb-3"><a href="https://bit.ly/regislktifkn">
 									<div class="card">
 										<div class="card-body">
 											<div class="d-flex flex-wrap"><img class="mb-2" src="<?= base_url(); ?>assets/img/menu/microscope.png" height="48" alt="">
@@ -27,7 +27,7 @@
 										</div>
 									</div>
 								</a></div>
-							<div class="col-12 mb-3"><a href="http://localhost/newstanerid/advokasi">
+							<div class="col-12 mb-3"><a href="https://bit.ly/regisesaifkn">
 									<div class="card">
 										<div class="card-body">
 											<div class="d-flex flex-wrap"><img class="mb-2" src="<?= base_url(); ?>assets/img/menu/notebook.png" height="48" alt="">
@@ -38,7 +38,7 @@
 										</div>
 									</div>
 								</a></div>
-							<div class="col-12 mb-3"><a href="http://localhost/newstanerid/perizinan">
+							<div class="col-12 mb-3"><a href="https://bit.ly/regisdesainfkn">
 									<div class="card">
 										<div class="card-body">
 											<div class="d-flex flex-wrap"><img class="mb-2" src="<?= base_url(); ?>assets/img/menu/canvas.png" height="48" alt="">
@@ -49,7 +49,7 @@
 										</div>
 									</div>
 								</a></div>
-							<div class="col-12 mb-3"><a href="http://localhost/newstanerid/pengaduan">
+							<div class="col-12 mb-3"><a href="https://bit.ly/regisvideofkn">
 									<div class="card">
 										<div class="card-body">
 											<div class="d-flex flex-wrap"><img class="mb-2" src="<?= base_url(); ?>assets/img/menu/projector.png" height="48" alt="">
@@ -60,7 +60,7 @@
 										</div>
 									</div>
 								</a></div>
-							<div class="col-12 mb-3"><a href="http://localhost/newstanerid/pengaduan">
+							<div class="col-12 mb-3"><a href="https://bit.ly/regisforumfkn">
 									<div class="card">
 										<div class="card-body">
 											<div class="d-flex flex-wrap"><img class="mb-2" src="<?= base_url(); ?>assets/img/menu/online-class.png" height="48" alt="">
