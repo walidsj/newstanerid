@@ -22,7 +22,7 @@
 											<div class="d-flex flex-wrap"><img class="mb-2" src="<?= base_url(); ?>assets/img/menu/microscope.png" height="48" alt="">
 												<div class="ml-3">
 													<p class="text-default mb-0">Lomba KTI</p>
-													<small class="text-muted"></small>
+													<small class="text-muted">10 - 25 Oktober 2020</small>
 												</div>
 											</div>
 										</div>
