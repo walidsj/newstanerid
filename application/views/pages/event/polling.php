@@ -33,7 +33,7 @@
 		<footer class="footer-section">
 			<div class="container footer-left-xs">
 				<div class="row justify-content-between">
-					<div class="col-12 col-md-3">
+					<div class="col-12">
 						<a class="logo" href="#">
 							<img src="<?= base_url(); ?>assets/img/logo-1.png" alt="" class="img-fluid">
 						</a>
