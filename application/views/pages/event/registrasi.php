@@ -5,32 +5,8 @@
 <div class="content-box content-other">
 	<!-- Timehelper -->
 	<header id="headerSection" class="home-section">
-		<div id="demo" class="carousel slide">
-			<div class="carousel-inner">
-				<div class="carousel-item">
-					<a href="#">
-						<div>
-							<img class="d-block w-100" src="<?= base_url(); ?>assets/img/slides/slide02.png" alt="FKN">
-						</div>
-						<div class="carousel-caption container d-flex align-items-center">
-							<div class="text-block">
-								<h5></h5>
-								<p><br><br><br><br><br></p>
-							</div>
-						</div>
-					</a>
-				</div>
-			</div>
-
-			<span class="d-md-block">
-				<a class="carousel-control-prev" href="#demo" data-slide="prev">
-					<span class="carousel-control-prev-icon"></span>
-				</a>
-
-				<a class="carousel-control-next" href="#demo" data-slide="next">
-					<span class="carousel-control-next-icon"></span>
-				</a>
-			</span>
+		<div>
+			<img class="d-block w-100" src="<?= base_url(); ?>assets/img/slides/slide02.png" alt="FKN">
 		</div>
 	</header>
 	<section class="content-blank bg-gray pt-5">
@@ -44,8 +20,8 @@
 									<div class="card">
 										<div class="card-body">
 											<div class="d-flex flex-wrap"><img class="mb-2" src="<?= base_url(); ?>assets/img/menu/talk.png" height="64" alt="">
-												<div class="ml-5">
-													<p class="text-default mb-0">Layanan Persuratan</p>
+												<div class="ml-3">
+													<p class="text-default mb-0">Lomba KTI</p>
 												</div>
 											</div>
 										</div>
@@ -55,8 +31,8 @@
 									<div class="card">
 										<div class="card-body">
 											<div class="d-flex flex-wrap"><img class="mb-2" src="<?= base_url(); ?>assets/img/menu/collaboration.png" height="64" alt="">
-												<div class="ml-5">
-													<p class="text-default mb-0">Layanan Advokasi</p>
+												<div class="ml-3">
+													<p class="text-default mb-0">Lomba Esai</p>
 												</div>
 											</div>
 										</div>
@@ -66,8 +42,8 @@
 									<div class="card">
 										<div class="card-body">
 											<div class="d-flex flex-wrap"><img class="mb-2" src="<?= base_url(); ?>assets/img/menu/no-war.png" height="64" alt="">
-												<div class="ml-5">
-													<p class="text-default mb-0">Akses Perizinan</p>
+												<div class="ml-3">
+													<p class="text-default mb-0">Lomba Desain</p>
 												</div>
 											</div>
 										</div>
@@ -77,8 +53,19 @@
 									<div class="card">
 										<div class="card-body">
 											<div class="d-flex flex-wrap"><img class="mb-2" src="<?= base_url(); ?>assets/img/menu/balance.png" height="64" alt="">
-												<div class="ml-5">
-													<p class="text-default mb-0">Portal Pengaduan</p>
+												<div class="ml-3">
+													<p class="text-default mb-0">Lomba Videografi</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</a></div>
+							<div class="col-12 mb-3"><a href="http://localhost/newstanerid/pengaduan">
+									<div class="card">
+										<div class="card-body">
+											<div class="d-flex flex-wrap"><img class="mb-2" src="<?= base_url(); ?>assets/img/menu/balance.png" height="64" alt="">
+												<div class="ml-3">
+													<p class="text-default mb-0">Forum Keuangan Negara</p>
 												</div>
 											</div>
 										</div>
