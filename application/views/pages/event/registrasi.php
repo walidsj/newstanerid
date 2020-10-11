@@ -70,7 +70,7 @@
 											<div class="d-flex flex-wrap"><img class="mb-2" src="<?= base_url(); ?>assets/img/menu/online-class.png" height="48" alt="">
 												<div class="ml-3">
 													<p class="text-default mb-0">Forum Keuangan Negara</p>
-													<small class="text-muted">10 - 25 Oktober 2020</small>
+													<small class="text-muted">10 - 26 Oktober 2020</small>
 												</div>
 											</div>
 										</div>
