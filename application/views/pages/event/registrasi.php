@@ -22,6 +22,7 @@
 											<div class="d-flex flex-wrap"><img class="mb-2" src="<?= base_url(); ?>assets/img/menu/microscope.png" height="48" alt="">
 												<div class="ml-3">
 													<p class="text-default mb-0">Lomba KTI</p>
+													<small class="text-muted"></small>
 												</div>
 											</div>
 										</div>
@@ -33,6 +34,7 @@
 											<div class="d-flex flex-wrap"><img class="mb-2" src="<?= base_url(); ?>assets/img/menu/notebook.png" height="48" alt="">
 												<div class="ml-3">
 													<p class="text-default mb-0">Lomba Esai</p>
+													<small class="text-muted">10 - 29 Oktober 2020</small>
 												</div>
 											</div>
 										</div>
@@ -44,6 +46,7 @@
 											<div class="d-flex flex-wrap"><img class="mb-2" src="<?= base_url(); ?>assets/img/menu/canvas.png" height="48" alt="">
 												<div class="ml-3">
 													<p class="text-default mb-0">Lomba Desain</p>
+													<small class="text-muted">10 - 25 Oktober 2020</small>
 												</div>
 											</div>
 										</div>
@@ -55,6 +58,7 @@
 											<div class="d-flex flex-wrap"><img class="mb-2" src="<?= base_url(); ?>assets/img/menu/projector.png" height="48" alt="">
 												<div class="ml-3">
 													<p class="text-default mb-0">Lomba Videografi</p>
+													<small class="text-muted">10 - 25 Oktober 2020</small>
 												</div>
 											</div>
 										</div>
@@ -66,6 +70,7 @@
 											<div class="d-flex flex-wrap"><img class="mb-2" src="<?= base_url(); ?>assets/img/menu/online-class.png" height="48" alt="">
 												<div class="ml-3">
 													<p class="text-default mb-0">Forum Keuangan Negara</p>
+													<small class="text-muted">10 - 25 Oktober 2020</small>
 												</div>
 											</div>
 										</div>
