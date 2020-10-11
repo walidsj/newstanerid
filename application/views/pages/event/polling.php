@@ -17,7 +17,7 @@
 				<div class="container">
 					<div class="row">
 						<?php foreach ($polling_item as $pi) : ?>
-							<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+							<div class="col-12 col-sm-6">
 								<div class="form-group">
 									<a href="<?= site_url(); ?>event/polling-add/<?= $polling->epolling_id; ?>/<?= $pi->epolling_item_id; ?>">
 										<img width="100%" class="img" src="<?= base_url($pi->epolling_item_image); ?>">
