@@ -1,14 +1,14 @@
 $(document).ready(function () {
 	// kelas favorit
 	$(".slick_kelas-favorit").slick({
-		dots: false,
-		infinite: false,
+		dots: true,
+		infinite: true,
 		speed: 500,
 		slidesToShow: 1,
 		slidesToScroll: 1,
-		arrows: false,
+		arrows: true,
 		loop: true,
-		autoplay: false
+		autoplay: true
 	});
 
 	$(".arrow-kelas-favorit .slick-prev").click(function () {
