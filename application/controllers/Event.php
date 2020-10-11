@@ -90,4 +90,16 @@ class Event extends CI_Controller
 			show_404();
 		}
 	}
+
+	public function registrasi($slug = null)
+	{
+		if ($slug == null) {
+			show_404();
+		}
+
+		if ($slug == 'festival-keuangan-negara') {
+			$data['title'] = 'Festival Keuangan Negara';
+			$this->load->view('pages/event/registrasi', $data);
+		}
+	}
 }
