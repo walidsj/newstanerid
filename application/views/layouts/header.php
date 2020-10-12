@@ -65,6 +65,10 @@
       padding: 0;
       border: none;
     }
+
+    button.plyr__controls__item.plyr__control {
+      border-radius: 50%;
+    }
   </style>
 </head>
 
