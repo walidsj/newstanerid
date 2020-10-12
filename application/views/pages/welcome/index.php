@@ -226,7 +226,7 @@
 		</section>
 		<section class="content-blank bg-gray py-3 pb-5 mb-5">
 			<div class="container">
-				<h4 class="text-capitalize head-title pb-2">BEM Play</h4>
+				<h4 class="text-capitalize head-title pb-2">Just Play</h4>
 				<div class="card">
 					<div class="card-body">
 						<audio id="player" class="js-player" controls>
