@@ -77,12 +77,12 @@
     }
 
     .img-nav {
-      opacity: .7;
+      filter: grayscale(100%);
     }
 
     .img-nav.active,
     .img-nav:hover {
-      opacity: 1;
+      filter: grayscale(0);
     }
   </style>
 </head>
