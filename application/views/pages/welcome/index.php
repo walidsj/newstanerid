@@ -226,7 +226,7 @@
 		</section>
 		<section class="content-blank bg-gray py-3 pb-5 mb-5">
 			<div class="container">
-				<h4 class="text-capitalize head-title pb-2 px-2"><i class="fa fa-play-circle mr-2"></i>Music Today</h4>
+				<h4 class="text-capitalize head-title pb-2 px-2"><i class="text-primary fa fa-play-circle mr-2"></i>Music Today</h4>
 				<div class="px-2">
 					<div class="card">
 						<div class="card-body">
