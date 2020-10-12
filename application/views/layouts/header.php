@@ -77,14 +77,12 @@
     }
 
     .img-nav {
-      filter: grayscale(100%);
-      -webkit-filter: grayscale(100%);
+      opacity: .9;
     }
 
     .img-nav.active,
     .img-nav:hover {
-      filter: grayscale(0);
-      -webkit-filter: grayscale(0);
+      opacity: 2;
     }
   </style>
 </head>
