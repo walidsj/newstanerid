@@ -63,7 +63,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col">
-						<div class="card-body p-2">
+						<div class="card-body p-0 pb-3">
 							<?php if (!empty($this->session->flashdata('alert'))) : ?>
 								<div class="alert alert-<?= $this->session->flashdata('alert')['type']; ?>" role="alert">
 									<?= $this->session->flashdata('alert')['message']; ?>
@@ -102,7 +102,6 @@
 									</div>
 								</div>
 							</div>
-							<p class="text-default"></p>
 						</div>
 					</div>
 				</div>
@@ -176,7 +175,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="content-blank bg-gray py-3 pb-5 mb-5">
+		<section class="content-blank bg-gray py-2">
 			<div class="container">
 				<h4 class="text-capitalize head-title">Event terbaru</h4>
 				<div class="p-relative">
@@ -225,7 +224,27 @@
 				</div>
 			</div>
 		</section>
-
+		<section class="content-blank bg-gray py-3 pb-5 mb-5">
+			<div class="container">
+				<h4 class="text-capitalize head-title">BEM Play</h4>
+				<div class="card">
+					<div class="card-body">
+						<audio id="player" class="js-player" controls>
+							<source src="<?= base_url(); ?>assets/music/01.mp3" type="audio/mp3" />
+						</audio>
+						<div class="card-author no-border align-items-center mt-3">
+							<img src="<?= base_url(); ?>assets/img/tentor/cabbage.png" class="img-fluid img-profile mr-3" alt="">
+							<div class="info-profile">
+								<p class="title pb-0 pl-0">All I Want (Cover)</p>
+								<div class="d-flex align-items-center mb-0">
+									<p class="text-default mb-0 mr-2">Alexander Porat</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
 	</div>
 

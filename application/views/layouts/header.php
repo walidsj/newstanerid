@@ -59,6 +59,12 @@
       height: 72px;
       margin: 0 auto;
     }
+
+    .plyr--audio .plyr__controls {
+      background: transparent;
+      padding: 0;
+      border: none;
+    }
   </style>
 </head>
 
