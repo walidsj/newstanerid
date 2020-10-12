@@ -75,6 +75,15 @@
     .plyr--audio .plyr__control[aria-expanded=true] {
       border-radius: 50%;
     }
+
+    .img-nav {
+      opacity: .7;
+    }
+
+    .img-nav.active,
+    .img-nav:hover {
+      opacity: 1;
+    }
   </style>
 </head>
 

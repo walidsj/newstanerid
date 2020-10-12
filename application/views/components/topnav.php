@@ -11,7 +11,7 @@
             <div class="d-flex align-items-center">
                 <div class="ml-3 mr-1">
                     <a class="dropdown-toggle dashboard-dropdown p-relative" href="javascript:void(0)" id="ShowMenuMobile" role="button">
-                        <img src="<?= base_url(); ?>assets/img/nav/tangerine.png" height="24" alt="<?= site_url(); ?>" class="img">
+                        <img src="https://img.icons8.com/cute-clipart/64/000000/menu.png" height="32" alt="<?= site_url(); ?>" class="img">
                     </a>
                 </div>
             </div>
