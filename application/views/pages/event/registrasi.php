@@ -9,9 +9,11 @@
 			<img class="d-block w-100" src="<?= base_url(); ?>assets/img/slides/slide02.png" alt="FKN">
 		</div>
 	</header>
-	<section class="content-blank bg-gray pt-5">
+	<section class="content-blank bg-gray pt-4">
 		<div class="container">
-			<h4 class="text-capitalize head-title">Pendaftaran</h4>
+			<div class="row">
+				<h4 class="text-capitalize head-title">Pendaftaran</h4>
+			</div>
 			<div class="row">
 				<div class="col-12 ml-auto mr-auto">
 					<div class="row">
