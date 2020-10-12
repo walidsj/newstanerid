@@ -23,7 +23,7 @@
 							<a href="#">
 								<div class="card card-slick-custom">
 									<div class="card-body">
-										<img class="mb-2 mx-auto" src="<?= base_url(); ?>assets/img/menu/microscope.png" height="48" alt="">
+										<img class="mb-2 mx-auto" src="https://drive.google.com/file/d/1aRS5pX8wR5aUP-W9zetvuHiRBCO5MR28/view?usp=sharing" height="48" alt="">
 										<h6 class="text-center card-title mb-0">Lomba KTI</h6>
 									</div>
 								</div>
@@ -31,7 +31,7 @@
 							<a href="#">
 								<div class="card card-slick-custom">
 									<div class="card-body">
-										<img class="mb-2 mx-auto" src="<?= base_url(); ?>assets/img/menu/notebook.png" height="48" alt="">
+										<img class="mb-2 mx-auto" src="https://drive.google.com/file/d/1iy2KbZZffVQVfckQkEf8tO6EjFibHacW/view?usp=sharing" height="48" alt="">
 										<h6 class="text-center card-title mb-0">Lomba Esai</h6>
 									</div>
 								</div>
@@ -39,7 +39,7 @@
 							<a href="#">
 								<div class="card card-slick-custom">
 									<div class="card-body">
-										<img class="mb-2 mx-auto" src="<?= base_url(); ?>assets/img/menu/canvas.png" height="48" alt="">
+										<img class="mb-2 mx-auto" src="https://drive.google.com/file/d/1nnktExLQR9pc3NJja6mQi534-MePmpZo/view?usp=sharing" height="48" alt="">
 										<h6 class="text-center card-title mb-0">Lomba Desain</h6>
 									</div>
 								</div>
@@ -47,7 +47,7 @@
 							<a href="#">
 								<div class="card card-slick-custom">
 									<div class="card-body">
-										<img class="mb-2 mx-auto" src="<?= base_url(); ?>assets/img/menu/projector.png" height="48" alt="">
+										<img class="mb-2 mx-auto" src="https://drive.google.com/file/d/1gUi5HEVRHBegcgTKLTCTsVWnhFN8Rox6/view?usp=sharing" height="48" alt="">
 										<h6 class="text-center card-title mb-0">Lomba Videografi</h6>
 									</div>
 								</div>
@@ -55,7 +55,7 @@
 							<a href="#">
 								<div class="card card-slick-custom">
 									<div class="card-body">
-										<img class="mb-2 mx-auto" src="<?= base_url(); ?>assets/img/menu/online-class.png" height="48" alt="">
+										<img class="mb-2 mx-auto" src="https://drive.google.com/file/d/1qdAEhVvbjkvX5dsbas1vZr3Ui7WIommN/view?usp=sharing" height="48" alt="">
 										<h6 class="text-center card-title mb-0">Forum Keuangan</h6>
 									</div>
 								</div>
