@@ -69,6 +69,12 @@
     button.plyr__controls__item.plyr__control {
       border-radius: 50%;
     }
+
+    plyr--audio .plyr__control.plyr__tab-focus,
+    .plyr--audio .plyr__control:hover,
+    .plyr--audio .plyr__control[aria-expanded=true] {
+      border-radius: 50%;
+    }
   </style>
 </head>
 
