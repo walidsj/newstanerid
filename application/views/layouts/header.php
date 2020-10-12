@@ -78,11 +78,13 @@
 
     .img-nav {
       filter: grayscale(100%);
+      -webkit-filter: grayscale(100%);
     }
 
     .img-nav.active,
     .img-nav:hover {
       filter: grayscale(0);
+      -webkit-filter: grayscale(0);
     }
   </style>
 </head>

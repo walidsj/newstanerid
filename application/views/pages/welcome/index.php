@@ -69,7 +69,7 @@
 							</div>
 						<?php endif; ?>
 						<div class="card-author no-border align-items-center">
-							<img src="<?= base_url(); ?>assets/img/tentor/cabbage.png" class="img-fluid img-profile mr-3" alt="">
+							<img src="https://img.icons8.com/cute-clipart/64/000000/gary-the-snail.png" class="img-fluid img-profile mr-3" alt="">
 							<div class="info-profile">
 								<?php
 								$jam = date('H:i');
@@ -113,7 +113,7 @@
 									<div class="card">
 										<div class="card-body">
 											<div class="d-flex flex-wrap text-center">
-												<img class="mx-auto mb-2" src="<?= base_url(); ?>assets/img/menu/talk.png" class="img" height="64" alt="">
+												<img class="mx-auto mb-2" src="https://img.icons8.com/cute-clipart/64/000000/mailbox-closed-flag-down.png" class="img" height="64" alt="">
 												<div class="mx-auto">
 													<p class="text-default mb-0">Layanan Persuratan</p>
 												</div>
@@ -128,7 +128,7 @@
 									<div class="card">
 										<div class="card-body">
 											<div class="d-flex flex-wrap text-center">
-												<img class="mx-auto mb-2" src="<?= base_url(); ?>assets/img/menu/collaboration.png" class="img" height="64" alt="">
+												<img class="mx-auto mb-2" src="https://img.icons8.com/cute-clipart/64/000000/puzzle.png" class="img" height="64" alt="">
 												<div class="mx-auto">
 													<p class="text-default mb-0">Layanan Advokasi</p>
 												</div>
@@ -143,7 +143,7 @@
 									<div class="card">
 										<div class="card-body">
 											<div class="d-flex flex-wrap text-center">
-												<img class="mx-auto mb-2" src="<?= base_url(); ?>assets/img/menu/no-war.png" class="img" height="64" alt="">
+												<img class="mx-auto mb-2" src="https://img.icons8.com/cute-clipart/64/000000/unlock.png" class="img" height="64" alt="">
 												<div class="mx-auto">
 													<p class="text-default mb-0">Akses Perizinan</p>
 												</div>
@@ -158,7 +158,7 @@
 									<div class="card">
 										<div class="card-body">
 											<div class="d-flex flex-wrap text-center">
-												<img class="mx-auto mb-2" src="<?= base_url(); ?>assets/img/menu/balance.png" class="img" height="64" alt="">
+												<img class="mx-auto mb-2" src="https://img.icons8.com/cute-clipart/64/000000/speech-bubble.png" class="img" height="64" alt="">
 												<div class="mx-auto">
 													<p class="text-default mb-0">Portal Pengaduan</p>
 												</div>
