@@ -227,17 +227,19 @@
 		<section class="content-blank bg-gray py-3 pb-5 mb-5">
 			<div class="container">
 				<h4 class="text-capitalize head-title pb-2">Just Play</h4>
-				<div class="card">
-					<div class="card-body">
-						<audio id="player" class="js-player" controls>
-							<source src="<?= base_url(); ?>assets/music/01.mp3" type="audio/mp3" />
-						</audio>
-						<div class="card-author no-border align-items-center mt-3">
-							<img src="<?= base_url(); ?>assets/img/tentor/cabbage.png" class="img-fluid img-profile mr-3" alt="">
-							<div class="info-profile">
-								<p class="title pb-0 pl-0">All I Want (Cover)</p>
-								<div class="d-flex align-items-center mb-0">
-									<p class="text-default mb-0 mr-2">Alexander Porat</p>
+				<div class="px-2">
+					<div class="card">
+						<div class="card-body">
+							<audio id="player" class="js-player" controls>
+								<source src="<?= base_url(); ?>assets/music/01.mp3" type="audio/mp3" />
+							</audio>
+							<div class="card-author no-border align-items-center mt-3">
+								<img src="<?= base_url(); ?>assets/img/tentor/cabbage.png" class="img-fluid img-profile mr-3" alt="">
+								<div class="info-profile">
+									<p class="title pb-0 pl-0">All I Want (Cover)</p>
+									<div class="d-flex align-items-center mb-0">
+										<p class="text-default mb-0 mr-2">Alexander Porat</p>
+									</div>
 								</div>
 							</div>
 						</div>
