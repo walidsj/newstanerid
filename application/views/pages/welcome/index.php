@@ -233,11 +233,11 @@
 							<source src="<?= base_url(); ?>assets/music/01.mp3" type="audio/mp3" />
 						</audio>
 						<div class="card-author no-border align-items-center mt-3">
-							<img src="<?= base_url(); ?>assets/img/tentor/cabbage.png" class="img-fluid img-profile mr-3" alt="">
+							<img src="<?= base_url(); ?>assets/img/art/01.png" class="img-fluid img-profile mr-3" alt="">
 							<div class="info-profile">
 								<p class="title pb-0 pl-0">All I Want (Cover)</p>
 								<div class="d-flex align-items-center mb-0">
-									<p class="text-default mb-0 mr-2">Alexander Porat</p>
+									<p class="text-default mb-0 mr-2">Alexandra Porat</p>
 								</div>
 							</div>
 						</div>
