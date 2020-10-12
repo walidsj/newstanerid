@@ -158,7 +158,7 @@
 									<div class="card">
 										<div class="card-body">
 											<div class="d-flex flex-wrap text-center">
-												<img class="mx-auto mb-2" src="https://img.icons8.com/cute-clipart/64/000000/speech-bubble.png" class="img" height="64" alt="">
+												<img class="mx-auto mb-2" src="https://img.icons8.com/cute-clipart/64/000000/idea.png" class="img" height="64" alt="">
 												<div class="mx-auto">
 													<p class="text-default mb-0">Portal Pengaduan</p>
 												</div>
