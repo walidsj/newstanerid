@@ -14,69 +14,67 @@
 			<h4 class="text-capitalize head-title">Pendaftaran</h4>
 			<div class="row">
 				<div class="col-12 ml-auto mr-auto">
-					<div class="container">
-						<div class="row">
-							<div class="col-12 mb-3"><a href="https://bit.ly/regislktifkn">
-									<div class="card">
-										<div class="card-body">
-											<div class="d-flex flex-wrap"><img class="mb-2" src="<?= base_url(); ?>assets/img/menu/microscope.png" height="48" alt="">
-												<div class="ml-3">
-													<p class="text-default mb-0">Lomba KTI</p>
-													<small class="text-muted">10 - 25 Oktober 2020</small>
-												</div>
+					<div class="row">
+						<div class="col-12 mb-3"><a href="https://bit.ly/regislktifkn">
+								<div class="card">
+									<div class="card-body">
+										<div class="d-flex flex-wrap"><img class="mb-2" src="<?= base_url(); ?>assets/img/menu/microscope.png" height="48" alt="">
+											<div class="ml-3">
+												<p class="text-default mb-0">Lomba KTI</p>
+												<small class="text-muted">10 - 25 Oktober 2020</small>
 											</div>
 										</div>
 									</div>
-								</a></div>
-							<div class="col-12 mb-3"><a href="https://bit.ly/regisesaifkn">
-									<div class="card">
-										<div class="card-body">
-											<div class="d-flex flex-wrap"><img class="mb-2" src="<?= base_url(); ?>assets/img/menu/notebook.png" height="48" alt="">
-												<div class="ml-3">
-													<p class="text-default mb-0">Lomba Esai</p>
-													<small class="text-muted">10 - 29 Oktober 2020</small>
-												</div>
+								</div>
+							</a></div>
+						<div class="col-12 mb-3"><a href="https://bit.ly/regisesaifkn">
+								<div class="card">
+									<div class="card-body">
+										<div class="d-flex flex-wrap"><img class="mb-2" src="<?= base_url(); ?>assets/img/menu/notebook.png" height="48" alt="">
+											<div class="ml-3">
+												<p class="text-default mb-0">Lomba Esai</p>
+												<small class="text-muted">10 - 29 Oktober 2020</small>
 											</div>
 										</div>
 									</div>
-								</a></div>
-							<div class="col-12 mb-3"><a href="https://bit.ly/regisdesainfkn">
-									<div class="card">
-										<div class="card-body">
-											<div class="d-flex flex-wrap"><img class="mb-2" src="<?= base_url(); ?>assets/img/menu/canvas.png" height="48" alt="">
-												<div class="ml-3">
-													<p class="text-default mb-0">Lomba Desain</p>
-													<small class="text-muted">10 - 25 Oktober 2020</small>
-												</div>
+								</div>
+							</a></div>
+						<div class="col-12 mb-3"><a href="https://bit.ly/regisdesainfkn">
+								<div class="card">
+									<div class="card-body">
+										<div class="d-flex flex-wrap"><img class="mb-2" src="<?= base_url(); ?>assets/img/menu/canvas.png" height="48" alt="">
+											<div class="ml-3">
+												<p class="text-default mb-0">Lomba Desain</p>
+												<small class="text-muted">10 - 25 Oktober 2020</small>
 											</div>
 										</div>
 									</div>
-								</a></div>
-							<div class="col-12 mb-3"><a href="https://bit.ly/regisvideofkn">
-									<div class="card">
-										<div class="card-body">
-											<div class="d-flex flex-wrap"><img class="mb-2" src="<?= base_url(); ?>assets/img/menu/projector.png" height="48" alt="">
-												<div class="ml-3">
-													<p class="text-default mb-0">Lomba Videografi</p>
-													<small class="text-muted">10 - 25 Oktober 2020</small>
-												</div>
+								</div>
+							</a></div>
+						<div class="col-12 mb-3"><a href="https://bit.ly/regisvideofkn">
+								<div class="card">
+									<div class="card-body">
+										<div class="d-flex flex-wrap"><img class="mb-2" src="<?= base_url(); ?>assets/img/menu/projector.png" height="48" alt="">
+											<div class="ml-3">
+												<p class="text-default mb-0">Lomba Videografi</p>
+												<small class="text-muted">10 - 25 Oktober 2020</small>
 											</div>
 										</div>
 									</div>
-								</a></div>
-							<div class="col-12 mb-3"><a href="https://bit.ly/regisforumfkn">
-									<div class="card">
-										<div class="card-body">
-											<div class="d-flex flex-wrap"><img class="mb-2" src="<?= base_url(); ?>assets/img/menu/online-class.png" height="48" alt="">
-												<div class="ml-3">
-													<p class="text-default mb-0">Forum Keuangan Negara</p>
-													<small class="text-muted">10 - 26 Oktober 2020</small>
-												</div>
+								</div>
+							</a></div>
+						<div class="col-12 mb-3"><a href="https://bit.ly/regisforumfkn">
+								<div class="card">
+									<div class="card-body">
+										<div class="d-flex flex-wrap"><img class="mb-2" src="<?= base_url(); ?>assets/img/menu/online-class.png" height="48" alt="">
+											<div class="ml-3">
+												<p class="text-default mb-0">Forum Keuangan Negara</p>
+												<small class="text-muted">10 - 26 Oktober 2020</small>
 											</div>
 										</div>
 									</div>
-								</a></div>
-						</div>
+								</div>
+							</a></div>
 					</div>
 				</div>
 			</div>
