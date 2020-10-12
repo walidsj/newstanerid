@@ -1,3 +1,18 @@
+	<footer class="footer-section">
+		<div class="container footer-left-xs">
+			<div class="row justify-content-between">
+				<div class="col-12">
+					<a class="logo" href="#">
+						<img src="<?= base_url(); ?>assets/img/logo-1.png" alt="" class="img-fluid">
+					</a>
+
+					<p class="mt-2">
+						©2020 | All Rights Reserved
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
 	</div>
 
 	<script type="text/javascript" src="<?= base_url(); ?>assets/vendor/jquery/jquery.min.js?v2"></script>
