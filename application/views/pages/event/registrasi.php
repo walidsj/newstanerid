@@ -20,7 +20,7 @@
 				<div class="container">
 					<div class="p-relative">
 						<div class="slick_booklet slick-custom slick-card-same-height">
-							<a href="https://drive.google.com/file/d/1aRS5pX8wR5aUP-W9zetvuHiRBCO5MR28/view?usp=sharing">
+							<a href="https://drive.google.com/file/d/1eZybU5X7V-ONfYuToilUQxGS1kpeSEjj/view?usp=sharing">
 								<div class="card card-slick-custom">
 									<div class="card-body">
 										<img class="mb-2 mx-auto" src="<?= base_url(); ?>assets/img/menu/microscope.png" height="48" alt="">
@@ -28,7 +28,7 @@
 									</div>
 								</div>
 							</a>
-							<a href="https://drive.google.com/file/d/1iy2KbZZffVQVfckQkEf8tO6EjFibHacW/view?usp=sharing">
+							<a href="https://drive.google.com/file/d/1ZEMpslRlPBTBo5k6lszcaSWeQ7XevJIM/view?usp=sharing">
 								<div class="card card-slick-custom">
 									<div class="card-body">
 										<img class="mb-2 mx-auto" src="<?= base_url(); ?>assets/img/menu/notebook.png" height="48" alt="">
@@ -36,7 +36,7 @@
 									</div>
 								</div>
 							</a>
-							<a href="https://drive.google.com/file/d/1nnktExLQR9pc3NJja6mQi534-MePmpZo/view?usp=sharing">
+							<a href="https://drive.google.com/file/d/1OSTOXi3pK4DHHDEv0UXaSAhi0sQYpTKm/view?usp=sharing">
 								<div class="card card-slick-custom">
 									<div class="card-body">
 										<img class="mb-2 mx-auto" src="<?= base_url(); ?>assets/img/menu/canvas.png" height="48" alt="">
@@ -44,7 +44,7 @@
 									</div>
 								</div>
 							</a>
-							<a href="https://drive.google.com/file/d/1gUi5HEVRHBegcgTKLTCTsVWnhFN8Rox6/view?usp=sharing">
+							<a href="https://drive.google.com/file/d/1wV5FnYVipDtcAgYpZ3zIHqjTVC7zfRQq/view?usp=sharing">
 								<div class="card card-slick-custom">
 									<div class="card-body">
 										<img class="mb-2 mx-auto" src="<?= base_url(); ?>assets/img/menu/projector.png" height="48" alt="">
@@ -52,7 +52,7 @@
 									</div>
 								</div>
 							</a>
-							<a href="https://drive.google.com/file/d/1qdAEhVvbjkvX5dsbas1vZr3Ui7WIommN/view?usp=sharing">
+							<a href="https://drive.google.com/file/d/16OyFS0atdKhejTzhG5geK0WZ8zMpNui-/view?usp=sharing">
 								<div class="card card-slick-custom">
 									<div class="card-body">
 										<img class="mb-2 mx-auto" src="<?= base_url(); ?>assets/img/menu/online-class.png" height="48" alt="">
