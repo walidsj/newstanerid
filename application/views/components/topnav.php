@@ -7,7 +7,7 @@
         </div>
 
         <!-- <div class="d-block d-md-none"> -->
-        <div class="d-block">
+        <!-- <div class="d-block">
             <div class="d-flex align-items-center">
                 <div class="ml-3 mr-1">
                     <a class="dropdown-toggle dashboard-dropdown p-relative" href="javascript:void(0)" id="ShowMenuMobile" role="button">
@@ -15,6 +15,6 @@
                     </a>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 </nav>
