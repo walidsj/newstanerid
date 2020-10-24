@@ -44,7 +44,7 @@
 									</div>
 								</div>
 							</a>
-							<a href="https://drive.google.com/file/d/1wV5FnYVipDtcAgYpZ3zIHqjTVC7zfRQq/view?usp=sharing">
+							<a href="https://drive.google.com/file/d/17E5_pMd43YaQ3lYeMrV5AJcTopRyFYfE/view?usp=sharing">
 								<div class="card card-slick-custom">
 									<div class="card-body">
 										<img class="mb-2 mx-auto" src="<?= base_url(); ?>assets/img/menu/projector.png" height="48" alt="">
@@ -52,7 +52,7 @@
 									</div>
 								</div>
 							</a>
-							<a href="https://drive.google.com/file/d/16OyFS0atdKhejTzhG5geK0WZ8zMpNui-/view?usp=sharing">
+							<a href="https://drive.google.com/file/d/1uNdtYQfig0jv1HQyuyFCi_bO75wJ-P6T/view?usp=sharing">
 								<div class="card card-slick-custom">
 									<div class="card-body">
 										<img class="mb-2 mx-auto" src="<?= base_url(); ?>assets/img/menu/online-class.png" height="48" alt="">
