@@ -30,13 +30,34 @@
 												</a>
 											</div>
 											<div class="col-8">
-												<span class="card-title mb-0">FKN Talkseries #1</span>
+												<span class="card-title mb-0">FKN Talk Series #1 "Pandemi Tak Kian Mereda, Apa Kabar Keuangan Negara?"</span>
 												<small class="text-muted d-block">Minggu, 1 November 2020</small>
 												<small class="text-muted d-block">13.00 WIB - Selesai</small>
 												<small class="text-muted d-block">Zoom</small>
 												<a href="https://staner.id/fkntalkseries1">
 													<small class="btn btn-xs btn-primary mt-3">Detail & Registrasi</small>
 												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card-body">
+									<div class="d-flex flex-wrap">
+										<div class="row">
+											<div class="col-4">
+												<a href="<?= base_url(); ?>assets/img/event/poster/poster1.jpg">
+													<img class="mb-2 img-fluid" src="<?= base_url(); ?>assets/img/event/poster/poster1.jpg" alt="" style="border-radius:20px">
+												</a>
+											</div>
+											<div class="col-8">
+												<span class="card-title mb-0">FKN Talk Series #2 "Keluar dari Resesi,
+													Bagaimana Strategi PEN?"</span>
+												<small class="text-muted d-block">Rabu, 4 November 2020</small>
+												<small class="text-muted d-block">09.00 WIB - Selesai</small>
+												<small class="text-muted d-block">Zoom</small>
+												<span class="btn btn-xs btn-secondary mt-3">Detail & Registrasi</span>
 											</div>
 										</div>
 									</div>
