@@ -47,7 +47,7 @@
 									<div class="d-flex flex-wrap">
 										<div class="row">
 											<div class="col-4">
-												<a href="<?= base_url(); ?>assets/img/event/poster/poster1.jpg">
+												<a href="#">
 													<img class="mb-2 img-fluid" src="<?= base_url(); ?>assets/img/event/poster/poster1.jpg" alt="" style="border-radius:20px">
 												</a>
 											</div>
