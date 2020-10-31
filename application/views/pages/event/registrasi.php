@@ -24,18 +24,18 @@
 								<div class="card-body">
 									<div class="d-flex flex-wrap">
 										<div class="row">
-											<div class="col">
+											<div class="col-4">
 												<a href="<?= base_url(); ?>assets/img/event/poster/poster1.jpg">
-													<img class="mb-2" src="<?= base_url(); ?>assets/img/event/poster/poster1.jpg" height="150" alt="" style="border-radius:20px">
+													<img class="mb-2 img-fluid" src="<?= base_url(); ?>assets/img/event/poster/poster1.jpg" alt="" style="border-radius:20px">
 												</a>
 											</div>
-											<div class="col">
+											<div class="col-8">
 												<span class="card-title mb-0">FKN Talkseries #1</span>
 												<small class="text-muted d-block">Minggu, 1 November 2020</small>
 												<small class="text-muted d-block">13.00 WIB - Selesai</small>
 												<small class="text-muted d-block">Zoom</small>
 												<a href="https://staner.id/fkntalkseries1">
-													<small class="badge badge-xs badge-primary mt-3">Detail & Registrasi</small>
+													<small class="btn btn-xs btn-primary mt-3">Detail & Registrasi</small>
 												</a>
 											</div>
 										</div>
