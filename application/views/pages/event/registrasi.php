@@ -57,7 +57,9 @@
 												<small class="text-muted d-block">Rabu, 4 November 2020</small>
 												<small class="text-muted d-block">09.00 WIB - Selesai</small>
 												<small class="text-muted d-block">Zoom</small>
-												<span class="btn btn-xs btn-secondary mt-3">Detail & Registrasi</span>
+												<a href="https://staner.id/fkntalkseries2">
+													<small class="btn btn-xs btn-primary mt-3">Detail & Registrasi</small>
+												</a>
 											</div>
 										</div>
 									</div>
