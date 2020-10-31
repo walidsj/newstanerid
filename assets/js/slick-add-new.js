@@ -36,5 +36,26 @@ $(document).ready(function () {
 	$(".arrow-booklet .slick-next").click(function () {
 		$(".slick_booklet").slick("slickNext");
 	});
+
+	//webinar
+
+	$(".slick_webinar").slick({
+		dots: true,
+		infinite: true,
+		speed: 500,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		arrows: true,
+		loop: true,
+		autoplay: true
+	});
+
+	$(".arrow-webinar .slick-prev").click(function () {
+		$(".slick_webinar").slick("slickPrev");
+	});
+
+	$(".arrow-webinar .slick-next").click(function () {
+		$(".slick_webinar").slick("slickNext");
+	});
 });
 
