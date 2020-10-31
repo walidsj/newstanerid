@@ -52,7 +52,7 @@
 												</a>
 											</div>
 											<div class="col-8">
-												<span class="card-title mb-0">FKN Talk Series #2 "Keluar dari Resesi,
+												<span class="card-title mb-0">FKN Talk Series #2 "Titik Terang: Keluar dari Resesi,
 													Bagaimana Strategi PEN?"</span>
 												<small class="text-muted d-block">Rabu, 4 November 2020</small>
 												<small class="text-muted d-block">09.00 WIB - Selesai</small>
