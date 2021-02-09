@@ -154,7 +154,7 @@
 							</div>
 
 							<div class="col-6 mb-3 px-2">
-								<a href="<?= site_url(); ?>pengaduan">
+								<a href="https://wbs.staner.id">
 									<div class="card">
 										<div class="card-body">
 											<div class="d-flex flex-wrap text-center">

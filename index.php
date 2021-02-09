@@ -45,7 +45,7 @@
  * This variable must contain the name of your "system" directory.
  * Set the path if it is not in the same directory as this file.
  */
-$system_path = 'system';
+$system_path = 'src';
 
 /*
  *---------------------------------------------------------------
@@ -62,7 +62,7 @@ $system_path = 'system';
  *
  * NO TRAILING SLASH!
  */
-$application_folder = 'application';
+$application_folder = 'app';
 
 /*
  *---------------------------------------------------------------
@@ -239,7 +239,7 @@ define('VIEWPATH', $view_folder . DIRECTORY_SEPARATOR);
  */
 
 require_once BASEPATH . 'dotenv/autoloader.php';
-$dotenv = new Dotenv\Dotenv(__DIR__);
+$dotenv = new Dotenv\Dotenv(APPPATH . '/config');
 $dotenv->load();
 
 /*
