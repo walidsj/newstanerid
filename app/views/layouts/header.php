@@ -7,7 +7,7 @@
   <meta name="description" content="Staner.id adalah aplikasi khusus untuk mahasiswa dan mahasiswi PKN STAN kampus kedinasan Kementerian Keuangan Republik Indonesia">
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-  <title><?= $title; ?> - Staner.id</title>
+  <title><?= !empty($title) ? $title . ' - ' . getenv('APP_NAME') : getenv('APP_NAME'); ?></title>
 
   <link rel="shortcut icon" type="image/png" href="<?= base_url(); ?>assets/img/favicon.png" />
   <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>assets/vendor/bootstrap/css/bootstrap.min.css">

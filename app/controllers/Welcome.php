@@ -17,7 +17,6 @@ class Welcome extends CI_Controller
 			->get_where('events', ['event_status' => 1])->result();
 		$data['slide'] = $this->db->get_where('slides', ['slide_status' => 1])->result();
 
-		$data['title'] = 'Halo!';
 		$this->load->view('pages/welcome/index', $data);
 	}
 }
