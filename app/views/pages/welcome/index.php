@@ -122,7 +122,7 @@
 			</div>
 			<div class="row mt-2">
 				<div class="col">
-					<h5 class="head-title px-2">Pengumuman</h5>
+					<h5 class="head-title px-2">Info Terbaru</h5>
 					<div class="slick_kelas-favorit slick-custom slick-card-same-height">
 						<?php foreach ($event as $e) : ?>
 							<?php
