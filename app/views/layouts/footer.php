@@ -2,12 +2,8 @@
 		<div class="container footer-left-xs">
 			<div class="row justify-content-between">
 				<div class="col-12 text-center">
-					<!-- <a class="logo" href="#">
-						<img src="<?= base_url(); ?>assets/img/logo-1.png" alt="<?= getenv('APP_NAME'); ?>" class="img-fluid">
-					</a> -->
-
 					<p>
-						©<?= date('Y', time()); ?> BEM PKN STAN - Hak Cipta Dilindungi
+						©<?= date('Y', time()); ?> BEM KM PKN STAN<br>Hak Cipta Dilindungi
 					</p>
 				</div>
 			</div>

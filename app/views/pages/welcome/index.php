@@ -46,14 +46,14 @@
 		<div class="container">
 			<div class="row">
 				<div class="col">
-					<div class="card-body px-0 pt-0">
+					<div class="card-body px-2 pt-0">
 						<?php if (!empty($this->session->flashdata('alert'))) : ?>
 							<div class="alert alert-<?= $this->session->flashdata('alert')['type']; ?>" role="alert">
 								<?= $this->session->flashdata('alert')['message']; ?>
 							</div>
 						<?php endif; ?>
 						<div class="card-author no-border align-items-center p-0">
-							<img src="https://img.icons8.com/cute-clipart/64/000000/gary-the-snail.png" class="img-fluid img-profile mr-3" alt="">
+							<img src="<?= base_url(); ?>public/img/icon/send.svg" style="padding: 3px; border-radius: 0; border: 0 !important" class="img-fluid img-profile mr-3" alt="Update">
 							<div class="info-profile">
 								<?php
 								$jam = date('H:i');
