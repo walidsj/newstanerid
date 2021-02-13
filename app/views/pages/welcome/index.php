@@ -103,7 +103,7 @@
 								</a>
 							</div>
 							<div class="col-6 mb-3 px-2">
-								<a href="<?= site_url(); ?>advokasi">
+								<a href="<?= site_url(); ?>shortlink">
 									<div class="card">
 										<div class="card-body">
 											<div class="d-flex flex-wrap text-center">
@@ -123,7 +123,7 @@
 			<div class="row mt-2">
 				<div class="col">
 					<h5 class="head-title px-2">Info Terbaru</h5>
-					<div class="slick_kelas-favorit slick-custom slick-card-same-height">
+					<div class="slick-info slick-custom slick-card-same-height">
 						<?php foreach ($event as $e) : ?>
 							<?php
 							if (strpos($e->event_url, 'https://') !== false) {
@@ -153,6 +153,11 @@
 								</div>
 							</a>
 						<?php endforeach; ?>
+						<a href="<?= site_url(); ?>info">
+							<div class="btn btn-outline-primary d-flex justify-content-center">
+								Lihat Info Lainnya
+							</div>
+						</a>
 					</div>
 				</div>
 			</div>
@@ -228,7 +233,7 @@
 				<div class="col">
 					<h5 class="head-title px-2">Acara Terbaru</h5>
 					<div class="p-relative">
-						<div class="slick_kelas-favorit slick-custom slick-card-same-height">
+						<div class="slick-event slick-custom slick-card-same-height">
 							<?php foreach ($event as $e) : ?>
 								<?php
 								if (strpos($e->event_url, 'https://') !== false) {
@@ -261,6 +266,11 @@
 									</div>
 								</a>
 							<?php endforeach; ?>
+							<a href="<?= site_url(); ?>event">
+								<div class="btn btn-outline-primary d-flex justify-content-center">
+									Lihat Acara Lainnya
+								</div>
+							</a>
 						</div>
 					</div>
 				</div>

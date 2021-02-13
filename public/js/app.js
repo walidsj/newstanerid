@@ -14,3 +14,19 @@ $('form').submit(function() {
    });
    return true;
 });
+
+$(".slick-info").slick({
+   dots: true,
+   slidesToShow: 1,
+   slidesToScroll: 1,
+   arrows: true,
+   infinite: false
+});
+
+$(".slick-event").slick({
+   dots: true,
+   slidesToShow: 1,
+   slidesToScroll: 1,
+   arrows: true,
+   infinite: false
+});
