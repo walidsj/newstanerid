@@ -7,7 +7,7 @@
 					</a> -->
 
 					<p>
-						©<?= date('Y', time()); ?> | Hak Cipta Dilindungi
+						©<?= date('Y', time()); ?> BEM PKN STAN - Hak Cipta Dilindungi
 					</p>
 				</div>
 			</div>
@@ -23,7 +23,6 @@
 	<script type="text/javascript" src="<?= base_url(); ?>assets/vendor/slick/slick.min.js"></script>
 	<script type="text/javascript" src="<?= base_url(); ?>assets/vendor/animsition/js/animsition.min.js?v2"></script>
 	<script type="text/javascript" src="<?= base_url(); ?>assets/vendor/slinky/js/slinky.min.js"></script>
-	<script type="text/javascript" src="<?= base_url(); ?>assets/vendor/plyr/plyr.min.js"></script>
 	<script type="text/javascript" src="<?= base_url(); ?>assets/js/main.js"></script>
 	<script type="text/javascript" src="<?= base_url(); ?>assets/js/slick-add-new.js"></script>
 	<script type="text/javascript" src="<?= base_url(); ?>assets/js/sidebar-mobile.js"></script>

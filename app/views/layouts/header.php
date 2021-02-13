@@ -21,7 +21,6 @@
   <link rel="stylesheet" type="text/css" media="all" href="<?= base_url(); ?>assets/vendor/slick/slick-theme.css" />
   <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>assets/vendor/hamburgers/css/hamburgers.min.css">
   <link rel="stylesheet" type="text/css" media="all" href="<?= base_url(); ?>assets/vendor/slinky/css/slinky.min.css" />
-  <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>assets/vendor/plyr/plyr.css">
   <style type="text/css">
     .scrollable-menu {
       height: auto;
