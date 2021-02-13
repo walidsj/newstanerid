@@ -144,9 +144,6 @@
 							?>
 							<a href="<?= $url; ?>">
 								<div class="card card-slick-custom">
-									<div class="block-over-img">
-										<img class="card-img-top w-100" style="" src="<?= $image; ?>">
-									</div>
 									<div class="card-body p-3">
 										<h6 class="card-title mb-0" data-toggle="tooltip" data-placement="top" title="" data-original-title="<?= $e->event_judul; ?> - <?= $e->event_penyelenggara; ?>"><?= $e->event_judul; ?></h6>
 										<div class="card-author-katalog align-items-center mt-2">
