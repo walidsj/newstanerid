@@ -93,7 +93,7 @@
 									<div class="card">
 										<div class="card-body">
 											<div class="d-flex flex-wrap text-center">
-												<img class="mx-auto mb-2" src="<?= base_url(); ?>public/img/doodle/ReadingDoodle.png" class="img" height="76" alt="Peraturan Kampus" />
+												<img class="mx-auto mb-2" src="<?= base_url(); ?>public/img/doodle/ReadingDoodle.svg" class="img" height="76" alt="Peraturan Kampus" />
 												<div class="mx-auto">
 													<p class="text-default mb-0">Peraturan Kampus</p>
 												</div>
@@ -107,7 +107,7 @@
 									<div class="card">
 										<div class="card-body">
 											<div class="d-flex flex-wrap text-center">
-												<img class="mx-auto mb-2" src="<?= base_url(); ?>public/img/doodle/UnboxingDoodle.png" class="img" height="76" alt="Pemendek Tautan" />
+												<img class="mx-auto mb-2" src="<?= base_url(); ?>public/img/doodle/UnboxingDoodle.svg" class="img" height="76" alt="Pemendek Tautan" />
 												<div class="mx-auto">
 													<p class="text-default mb-0">Pemendek Tautan</p>
 												</div>
@@ -165,7 +165,7 @@
 									<div class="card">
 										<div class="card-body">
 											<div class="d-flex flex-wrap text-center">
-												<img class="mx-auto mb-2" src="<?= base_url(); ?>public/img/doodle/SprintingDoodle.png" class="img" height="76" alt="Layanan Persuratan" />
+												<img class="mx-auto mb-2" src="<?= base_url(); ?>public/img/doodle/SprintingDoodle.svg" class="img" height="76" alt="Layanan Persuratan" />
 												<div class="mx-auto">
 													<p class="text-default mb-0">Layanan Persuratan</p>
 												</div>
@@ -180,7 +180,7 @@
 									<div class="card">
 										<div class="card-body">
 											<div class="d-flex flex-wrap text-center">
-												<img class="mx-auto mb-2" src="<?= base_url(); ?>public/img/doodle/LovingDoodle.png" class="img" height="76" alt="Layanan Advokasi" />
+												<img class="mx-auto mb-2" src="<?= base_url(); ?>public/img/doodle/LovingDoodle.svg" class="img" height="76" alt="Layanan Advokasi" />
 												<div class="mx-auto">
 													<p class="text-default mb-0">Layanan Advokasi</p>
 												</div>
@@ -195,7 +195,7 @@
 									<div class="card">
 										<div class="card-body">
 											<div class="d-flex flex-wrap text-center">
-												<img class="mx-auto mb-2" src="<?= base_url(); ?>public/img/doodle/SitReadingDoodle.png" class="img" height="76" alt="Akses Perizinan" />
+												<img class="mx-auto mb-2" src="<?= base_url(); ?>public/img/doodle/SitReadingDoodle.svg" class="img" height="76" alt="Akses Perizinan" />
 												<div class="mx-auto">
 													<p class="text-default mb-0">Akses Perizinan</p>
 												</div>
@@ -210,7 +210,7 @@
 									<div class="card">
 										<div class="card-body">
 											<div class="d-flex flex-wrap text-center">
-												<img class="mx-auto mb-2" src="<?= base_url(); ?>public/img/doodle/CoffeeDoodle.png" class="img" height="76" alt="Portal Pengaduan" />
+												<img class="mx-auto mb-2" src="<?= base_url(); ?>public/img/doodle/CoffeeDoodle.svg" class="img" height="76" alt="Portal Pengaduan" />
 												<div class="mx-auto">
 													<p class="text-default mb-0">Portal Pengaduan</p>
 												</div>
