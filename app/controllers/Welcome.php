@@ -11,8 +11,6 @@ class Welcome extends CI_Controller
 
 	public function index()
 	{
-
-		$data['user'] = $this->user;
 		$data['event'] = $this->db->order_by('event_tanggalstart', 'ASC')
 			->get_where('events', ['event_status' => 1])->result();
 		$data['slide'] = $this->db->get_where('slides', ['slide_status' => 1])->result();

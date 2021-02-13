@@ -2,12 +2,12 @@
 		<div class="container footer-left-xs">
 			<div class="row justify-content-between">
 				<div class="col-12 text-center">
-					<a class="logo" href="#">
+					<!-- <a class="logo" href="#">
 						<img src="<?= base_url(); ?>assets/img/logo-1.png" alt="<?= getenv('APP_NAME'); ?>" class="img-fluid">
-					</a>
+					</a> -->
 
-					<p class="mt-2">
-						©<?= date('Y', time()); ?> | All Rights Reserved
+					<p>
+						©<?= date('Y', time()); ?> | Hak Cipta Dilindungi
 					</p>
 				</div>
 			</div>
@@ -15,6 +15,7 @@
 	</footer>
 	</div>
 
+	<!-- internal calling -->
 	<script type="text/javascript" src="<?= base_url(); ?>assets/vendor/jquery/jquery.min.js?v2"></script>
 	<script type="text/javascript" src="<?= base_url(); ?>assets/vendor/jquery/jquery.migrate.min.js"></script>
 	<script type="text/javascript" src="<?= base_url(); ?>assets/vendor/popper/popper.min.js?v2"></script>
@@ -26,6 +27,12 @@
 	<script type="text/javascript" src="<?= base_url(); ?>assets/js/main.js"></script>
 	<script type="text/javascript" src="<?= base_url(); ?>assets/js/slick-add-new.js"></script>
 	<script type="text/javascript" src="<?= base_url(); ?>assets/js/sidebar-mobile.js"></script>
+
+	<!-- external calling -->
+	<script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+	<script src="<?= base_url(); ?>public/js/app.js"></script>
+
+	<!-- here my script hehe -->
 
 	<script type="text/javascript">
 		$(document).ready(function() {

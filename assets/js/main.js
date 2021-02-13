@@ -106,18 +106,18 @@ $(document).ready(function () {
 	});
 });
 
-$(document).ready(function () {
-	$('#panahSwipe, [data-item-ojb]').on('click', function (e) {
-		e.preventDefault();
-		if (this.id == 'panahSwipe') {
-			$('html, body').animate({
-				scrollTop: ($('.content-kelas').offset().top - (($(window).width() < 768) ? 45 : 50))
-			}, 1250, 'swing');
-		} else {
-			let getObject = '.' + $(this).attr('data-item-ojb');
-			$('html, body').animate({
-				scrollTop: ($(getObject).offset().top - (($(window).width() < 768) ? 45 : 50))
-			}, 1250, 'swing');
-		}
-	});
-});
+// $(document).ready(function () {
+// 	$('#panahSwipe, [data-item-ojb]').on('click', function (e) {
+// 		e.preventDefault();
+// 		if (this.id == 'panahSwipe') {
+// 			$('html, body').animate({
+// 				scrollTop: ($('.content-kelas').offset().top - (($(window).width() < 768) ? 45 : 50))
+// 			}, 1250, 'swing');
+// 		} else {
+// 			let getObject = '.' + $(this).attr('data-item-ojb');
+// 			$('html, body').animate({
+// 				scrollTop: ($(getObject).offset().top - (($(window).width() < 768) ? 45 : 50))
+// 			}, 1250, 'swing');
+// 		}
+// 	});
+// });

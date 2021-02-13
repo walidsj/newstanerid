@@ -1,5 +1,5 @@
 <div id="mySidenav" class="sidenav">
-    <div class="container-fluid mr-1 ml-1">
+    <div class="col-md-6 mx-auto">
         <div class="closebtn text-gold" id="CloseMenuMobile">
             <i class="fa fa-times text-dark" aria-hidden="true"></i>
         </div>
@@ -8,24 +8,24 @@
         </div>
     </div>
 
-    <div class="container-fluid mr-1 ml-1">
+    <div class="col-md-6 mx-auto">
         <div id="menu-mobile" class="menu-slinky">
             <ul class="navbar-nav-mobile mt-3 mb-3">
-                <?php if ($user) : ?>
+                <?php if ($this->user) : ?>
                     <div class="card-body p-3">
                         <div class="card-author no-border align-items-center mt-2 mb-2">
                             <?php
                             $image = base_url('assets/img/tentor/cabbage.png');
 
-                            if (!empty($user->user_image)) {
-                                $image = $user->user_image;
+                            if (!empty($this->user->user_image)) {
+                                $image = $this->user->user_image;
                             }
                             ?>
                             <img src="<?= $image; ?>" class="img-fluid img-profile" alt="">
                             <div class="info-profile">
-                                <p class="title pb-0 pl-0"><?= $user->nama; ?></p>
+                                <p class="title pb-0 pl-0"><?= $this->user->nama; ?></p>
                                 <div class="d-flex align-items-center mb-0">
-                                    <p class="text-default mb-0 mr-2"><?= $user->user_email; ?></p>
+                                    <p class="text-default mb-0 mr-2"><?= $this->user->user_email; ?></p>
                                 </div>
                             </div>
                         </div>
@@ -40,7 +40,7 @@
                         <a href="<?= site_url(); ?>registrasi" class="btn btn-default rad-80 mini-shadow btn-lg w-100">
                             <div class="d-flex align-items-center justify-content-center">
                                 <img src="<?= base_url(); ?>assets/img/icon/google.png" class="img-fluid mr-3" width="18" alt="">
-                                <p class="text-default font-600 mb-0">Login with Google</p>
+                                <p class="text-default font-600 mb-0">Masuk dengan Email Kampus</p>
                             </div>
                         </a>
                     </div>

@@ -1,4 +1,8 @@
 <?php
+date_default_timezone_set("Asia/Jakarta");
+setlocale(LC_TIME, 'id_ID');
+setlocale(LC_TIME, 'INDONESIA');
+setlocale(LC_ALL, 'IND');
 
 /**
  * CodeIgniter

@@ -2,34 +2,38 @@
     <div class="container">
         <ul class="menu-mobile-bottom">
             <li class="img-nav <?= ($this->uri->segment(1) == '') ? 'active' : ''; ?>">
-                <a class="text-tertiary" href="<?= site_url(); ?>">
+                <a href="<?= site_url(); ?>">
                     <div>
-                        <img src="https://img.icons8.com/cute-clipart/64/000000/home.png" alt="Beranda" class="img" height="48">
+                        <img src="<?= base_url(); ?>public/img/icon/home.svg" alt="Beranda" class="img" height="24">
                     </div>
+                    <small class="text-dark fs-10 mt-0">Beranda</small>
                 </a>
             </li>
 
             <li class="img-nav <?= ($this->uri->segment(1) == 'event') ? 'active' : ''; ?>">
-                <a class="text-dark" href="<?= site_url(); ?>event">
+                <a href="<?= site_url(); ?>event">
                     <div>
-                        <img src="https://img.icons8.com/cute-clipart/64/000000/calendar.png" alt="Beranda" class="img" height="48">
+                        <img src="<?= base_url(); ?>public/img/icon/note.svg" alt="Event" class="img" height="24">
                     </div>
+                    <small class="text-dark fs-10 mt-0">Event</small>
                 </a>
             </li>
 
             <li class="img-nav <?= ($this->uri->segment(1) == 'berita') ? 'active' : ''; ?>">
-                <a class="text-dark" href="<?= site_url(); ?>berita">
+                <a href="<?= site_url(); ?>berita">
                     <div>
-                        <img src="https://img.icons8.com/cute-clipart/64/000000/news.png" alt="Beranda" class="img" height="48">
+                        <img src="<?= base_url(); ?>public/img/icon/menu.svg" alt="Akun" class="img" height="24">
                     </div>
+                    <small class="text-dark fs-10 mt-0">Berita</small>
                 </a>
             </li>
 
             <li class="img-nav <?= ($this->uri->segment(1) == 'akun') ? 'active' : ''; ?>">
-                <a class="text-dark" href="javascript:void(0)" id="ShowMenuMobile2">
+                <a href="javascript:void(0)" id="ShowMenuMobile2">
                     <div>
-                        <img src="https://img.icons8.com/cute-clipart/64/000000/jake.png" alt="Beranda" class="img" height="48">
+                        <img src="<?= base_url(); ?>public/img/icon/user.svg" alt="Akun" class="img" height="24">
                     </div>
+                    <small class="text-dark fs-10 mt-0">Akun</small>
                 </a>
             </li>
         </ul>

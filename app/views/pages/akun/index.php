@@ -7,7 +7,7 @@
 <div class="content-box content-other">
 	<!-- Timehelper -->
 	<div class="content-box content-home">
-		<div class="jumbotron mb-0">
+		<div class="jumbotron mb-0" style="background: url(<?= base_url(); ?>public/img/doodle/badges.jpeg)">
 			<div class="container">
 				<div class="row justify-content-between align-items-center">
 					<div class="col-12">
