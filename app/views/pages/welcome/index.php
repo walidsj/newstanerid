@@ -59,17 +59,13 @@
 								$jam = date('H:i');
 
 								if ($jam > '05:30' && $jam < '10:00') {
-									$salam = 'Pagi';
-									$pertanyaan = 'Gimana kelas paginya?';
+									$pertanyaan = 'Selamat pagi.';
 								} elseif ($jam >= '10:00' && $jam < '15:00') {
-									$salam = 'Siang';
-									$pertanyaan = 'Mari makan siang.';
+									$pertanyaan = 'Selamat siang.';
 								} elseif ($jam < '18:00') {
-									$salam = 'Sore';
-									$pertanyaan = 'Mandi sore dulu.';
+									$pertanyaan = 'Selamat sore.';
 								} else {
-									$salam = 'Malam';
-									$pertanyaan = 'Jangan begadang ya';
+									$pertanyaan = 'Selamat malam.';
 								}
 
 
@@ -79,7 +75,7 @@
 									$nama = 'Staner';
 								}
 								?>
-								<p class="title pb-0 pl-0">Selamat <?= $salam; ?>, <?= $nama; ?>!</p>
+								<p class="title pb-0 pl-0">Halo, <?= $nama; ?>!</p>
 								<div class="d-flex align-items-center mb-0">
 									<p class="text-default mb-0 mr-2"><?= $pertanyaan; ?></p>
 								</div>
