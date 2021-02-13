@@ -9,25 +9,22 @@
                     <small class="text-dark fs-10 mt-0">Beranda</small>
                 </a>
             </li>
-
+            <li class="img-nav <?= ($this->uri->segment(1) == 'info') ? 'active' : ''; ?>">
+                <a href="<?= site_url(); ?>info">
+                    <div>
+                        <img src="<?= base_url(); ?>public/img/icon/note.svg" alt="Info" class="img" height="24">
+                    </div>
+                    <small class="text-dark fs-10 mt-0">Info</small>
+                </a>
+            </li>
             <li class="img-nav <?= ($this->uri->segment(1) == 'event') ? 'active' : ''; ?>">
                 <a href="<?= site_url(); ?>event">
                     <div>
-                        <img src="<?= base_url(); ?>public/img/icon/note.svg" alt="Event" class="img" height="24">
+                        <img src="<?= base_url(); ?>public/img/icon/menu.svg" alt="Acara" class="img" height="24">
                     </div>
-                    <small class="text-dark fs-10 mt-0">Event</small>
+                    <small class="text-dark fs-10 mt-0">Acara</small>
                 </a>
             </li>
-
-            <li class="img-nav <?= ($this->uri->segment(1) == 'berita') ? 'active' : ''; ?>">
-                <a href="<?= site_url(); ?>berita">
-                    <div>
-                        <img src="<?= base_url(); ?>public/img/icon/menu.svg" alt="Akun" class="img" height="24">
-                    </div>
-                    <small class="text-dark fs-10 mt-0">Berita</small>
-                </a>
-            </li>
-
             <li class="img-nav <?= ($this->uri->segment(1) == 'akun') ? 'active' : ''; ?>">
                 <a href="javascript:void(0)" id="ShowMenuMobile2">
                     <div>
