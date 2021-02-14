@@ -275,6 +275,47 @@
 					</div>
 				</div>
 			</div>
+			<div class="row mt-3">
+				<div class="col">
+					<h5 class="head-title px-2">Jurnal Staner</h5>
+					<div class="slick-info slick-custom slick-card-same-height">
+						<?php foreach ($event as $e) : ?>
+							<?php
+							if (strpos($e->event_url, 'https://') !== false) {
+								$url = $e->event_url;
+							} elseif (strpos($e->event_url, 'http://') !== false) {
+								$url = $e->event_url;
+							} else {
+								$url = site_url() . $e->event_url;
+							}
+
+							if (strpos($e->event_image, 'https://') !== false) {
+								$image = $e->event_image;
+							} elseif (strpos($e->event_image, 'http://') !== false) {
+								$image = $e->event_image;
+							} else {
+								$image = base_url() . $e->event_image;
+							}
+							?>
+							<a href="<?= $url; ?>">
+								<div class="card card-slick-custom">
+									<div class="card-body p-3">
+										<h6 class="card-title mb-0" data-toggle="tooltip" data-placement="top" title="" data-original-title="<?= $e->event_judul; ?> - <?= $e->event_penyelenggara; ?>"><?= $e->event_judul; ?></h6>
+										<div class="card-author-katalog align-items-center mt-2">
+											<p class="card-text"><span class="fs-14 font-400"><?= $e->event_penyelenggara; ?> <i class="fa fa-check-circle text-tertiary" data-toggle="tooltip" data-placement="top" title="" data-original-title="Akun Resmi"></i></span></p>
+										</div>
+									</div>
+								</div>
+							</a>
+						<?php endforeach; ?>
+						<a href="<?= site_url(); ?>info">
+							<div class="btn btn-outline-primary d-flex justify-content-center">
+								Lihat Info Lainnya
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
 		</div>
 	</section>
 </div>
