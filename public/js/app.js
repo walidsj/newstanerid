@@ -1,4 +1,11 @@
-$('form').submit(function() {
+$(document).ready(function() {
+   $(".spinner").fadeOut(), $("#preloader").delay(350).fadeOut("slow"), $("body").delay(350).css({
+      overflow: "visible"
+   })
+});
+      
+// form loading
+$('form').submit(function () {
    Swal.fire({
       title: "Memuat",
       text: "Mengirim data formulir",
@@ -15,6 +22,7 @@ $('form').submit(function() {
    return true;
 });
 
+// load slick uhuy
 $(".slick-info").slick({
    dots: true,
    slidesToShow: 1,
@@ -29,4 +37,17 @@ $(".slick-event").slick({
    slidesToScroll: 1,
    arrows: true,
    infinite: false,
+});
+
+// menu toggle sidebar
+$("#ShowMenuMobile").click(function () {
+   $("#mySidenav").addClass("show")
+});
+
+$("#ShowMenuMobile2").click(function () {
+   $("#mySidenav").addClass("show")
+});
+
+$("#CloseMenuMobile").click(function () {
+   $("#mySidenav").removeClass("show")
 });

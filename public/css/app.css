@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700,800");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600,800");
 
 body, html {
 	font-family: "Montserrat", sans-serif;
@@ -15791,8 +15791,8 @@ ul.navbar-nav li.nav-item a.dropdown-item:focus {
 /* Preloader */
 #preloader {
 	overflow: hidden;
-	background: #4fc3f7;
-	/* background: #9c88ff; */
+	/* background: #4fc3f7; */
+	background: #ff6161;
 	left: 0;
 	right: 0;
 	top: 0;

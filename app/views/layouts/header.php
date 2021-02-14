@@ -9,18 +9,16 @@
 
   <title><?= !empty($title) ? $title . ' - ' . getenv('APP_NAME') : getenv('APP_NAME'); ?></title>
 
+  <link rel="shortcut icon" type="image/png" href="<?= base_url(); ?>assets/img/favicon.png" />
+
   <!-- load css good -->
   <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>public/css/app.css">
 
   <!-- other load css -->
-  <link rel="shortcut icon" type="image/png" href="<?= base_url(); ?>assets/img/favicon.png" />
   <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>assets/vendor/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>assets/css/animate.css">
   <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>assets/vendor/font-awesome/css/font-awesome.min.css">
-  <link id="effect" rel="stylesheet" type="text/css" media="all" href="<?= base_url(); ?>assets/vendor/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" media="all" href="<?= base_url(); ?>assets/vendor/slick/slick.css" />
   <link rel="stylesheet" type="text/css" media="all" href="<?= base_url(); ?>assets/vendor/slick/slick-theme.css" />
-  <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>assets/vendor/hamburgers/css/hamburgers.min.css">
-  <link rel="stylesheet" type="text/css" media="all" href="<?= base_url(); ?>assets/vendor/slinky/css/slinky.min.css" />
   <style type="text/css">
     .scrollable-menu {
       height: auto;
@@ -90,3 +88,4 @@
 
 <body>
   <div id="root">
+    <?= $this->load->view('components/preloader', null, true); ?>
