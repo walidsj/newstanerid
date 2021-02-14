@@ -105,6 +105,7 @@ class Registrasi extends CI_Controller
 			}
 		} else {
 			$this->session->set_flashdata('alert', ['type' => 'danger', 'message' => 'Pendaftaran gagal. Email kampus tidak dapat ditemukan. Hubungi administrator untuk mendaftarkan email kamu.']);
+			$this->google->logout();
 			redirect('/');
 		}
 	}
