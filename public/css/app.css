@@ -17,7 +17,7 @@ body, html {
 .btn {
 	padding: 10px 30px !important;
 	border-radius: 25px !important;
-	letter-spacing: 1px;
+	letter-spacing: .7px;
 }
 
 .btn.btn-xs {
@@ -266,7 +266,7 @@ h5,
 h6 {
 	font-family: "Montserrat", sans-serif;
 	font-weight: 500;
-	letter-spacing: 1px;
+	letter-spacing: .7px;
 	line-height: inherit;
 	color: #424242;
 }
@@ -302,7 +302,7 @@ label {
 	font-weight: 500 !important;
 	font-size: 0.9rem !important;
 	/* line-height: 25px; */
-	letter-spacing: 1px;
+	letter-spacing: .7px;
 }
 
 .text-paragraf {
@@ -712,7 +712,7 @@ select.form-control {
 	font-size: 18px !important;
 	font-weight: 500 !important;
 	line-height: 1.7;
-	letter-spacing: 1px;
+	letter-spacing: .7px;
 	color: #424242 !important;
 	padding-left: 0;
 	padding-top: 0;
@@ -903,7 +903,7 @@ select.form-control {
 	font-family: "Montserrat", sans-serif;
 	font-size: 3rem;
 	font-weight: 700 !important;
-	letter-spacing: 1px;
+	letter-spacing: .7px;
 	color: #fff !important;
 	margin-bottom: 5px;
 	text-transform: capitalize;
@@ -914,7 +914,7 @@ select.form-control {
 	font-family: "Montserrat", sans-serif;
 	font-size: 16px;
 	font-weight: 300 !important;
-	letter-spacing: 1px;
+	letter-spacing: .7px;
 	color: #fff !important;
 	margin-bottom: 1.5rem;
 }
@@ -1270,7 +1270,7 @@ select.form-control {
 	color: #424242 !important;
 	font-weight: 600 !important;
 	font-size: 15px !important;
-	letter-spacing: 1px;
+	letter-spacing: .7px;
 	margin-bottom: 0;
 	line-height: 25px;
 }
@@ -1280,7 +1280,7 @@ select.form-control {
 	color: #888 !important;
 	font-weight: 300 !important;
 	font-size: 13px !important;
-	letter-spacing: 1px;
+	letter-spacing: .7px;
 	margin-bottom: 0;
 	line-height: 25px;
 }
@@ -1697,7 +1697,7 @@ ol.list-popular-article>li:before {
 	color: #424242 !important;
 	font-weight: 600 !important;
 	font-size: 16px !important;
-	letter-spacing: 1px;
+	letter-spacing: .7px;
 	border-top: 0;
 	border-bottom: 1px solid #e0e0e0;
 	padding-top: 0;
@@ -1897,7 +1897,7 @@ ol.list-popular-article>li:before {
 	color: #9e9e9e !important;
 	font-weight: 500 !important;
 	font-size: 14px !important;
-	letter-spacing: 1px;
+	letter-spacing: .7px;
 	position: relative;
 }
 
@@ -2014,7 +2014,7 @@ ol.list-popular-article>li:before {
 	color: #424242 !important;
 	font-weight: 600 !important;
 	font-size: 14px !important;
-	letter-spacing: 1px;
+	letter-spacing: .7px;
 }
 
 .radio .checkmark {
@@ -2075,7 +2075,7 @@ input[type="radio"] {
 	font-weight: 500 !important;
 	font-size: 15px !important;
 	line-height: normal;
-	letter-spacing: 1px;
+	letter-spacing: .7px;
 }
 
 .breadcrumb .breadcrumb-item.active {
@@ -2535,14 +2535,14 @@ body.menu-open-overlay__pink:after {
 	font-family: "Montserrat", sans-serif;
 	font-weight: 600;
 	color: #424242;
-	letter-spacing: 1px;
+	letter-spacing: .7px;
 }
 
 .head-sub-desc {
 	font-family: "Montserrat", sans-serif;
 	font-size: 15px !important;
 	font-weight: 300 !important;
-	letter-spacing: 1px;
+	letter-spacing: .7px;
 }
 
 .dark-img {
@@ -2669,7 +2669,7 @@ body.menu-open-overlay__pink:after {
 @media screen and (max-width: 767px) {
 	.title-justify-area .title-line {
 		font-size: 14px !important;
-		letter-spacing: 1px;
+		letter-spacing: .7px;
 	}
 }
 
@@ -2685,7 +2685,7 @@ body.menu-open-overlay__pink:after {
 @media screen and (max-width: 767px) {
 	.title-justify-area .title-right-line {
 		font-size: 14px !important;
-		letter-spacing: 1px;
+		letter-spacing: .7px;
 	}
 }
 
@@ -2932,7 +2932,7 @@ hr.hrzn.hr-bg-after:after {
 	font-style: normal;
 	font-stretch: normal;
 	line-height: normal;
-	letter-spacing: 1px;
+	letter-spacing: .7px;
 	text-align: center;
 	color: #9e9e9e;
 	transform: translate(-50%, -50%);
@@ -3377,7 +3377,7 @@ img.photo-review[src*="#"] {
 	font-weight: 500 !important;
 	font-size: 0.9rem !important;
 	line-height: 25px;
-	letter-spacing: 1px;
+	letter-spacing: .7px;
 }
 
 .detail-article img {
@@ -3927,7 +3927,7 @@ img.photo-review[src*="#"] {
 	font-weight: 500 !important;
 	font-size: 0.9rem !important;
 	line-height: 25px;
-	letter-spacing: 1px;
+	letter-spacing: .7px;
 	margin-bottom: 2rem;
 }
 
@@ -15627,7 +15627,7 @@ ul.navbar-nav li.nav-item a.dropdown-item:focus {
 	color: #9e9e9e !important;
 	font-weight: 500 !important;
 	font-size: 14px !important;
-	letter-spacing: 1px;
+	letter-spacing: .7px;
 }
 
 .footer-section .logo img {
@@ -15641,7 +15641,7 @@ ul.navbar-nav li.nav-item a.dropdown-item:focus {
 	color: #ff6161 !important;
 	font-weight: 600 !important;
 	font-size: 16px !important;
-	letter-spacing: 1px;
+	letter-spacing: .7px;
 }
 
 .footer-section ul.nav-footer {
@@ -15682,7 +15682,7 @@ ul.navbar-nav li.nav-item a.dropdown-item:focus {
 	color: #9e9e9e !important;
 	font-weight: 500 !important;
 	font-size: 14px !important;
-	letter-spacing: 1px;
+	letter-spacing: .7px;
 }
 
 .copyright-section {
@@ -16005,7 +16005,7 @@ article pre {
 	font-family: Source sans pro;
 	font-size: 16px;
 	font-weight: 400;
-	letter-spacing: 1px;
+	letter-spacing: .7px;
 	line-height: 36px;
 	color: #424242;
 }
@@ -16020,7 +16020,7 @@ article pre {
 	font-weight: 400 !important;
 	font-size: 14px !important;
 	color: #424242 !important;
-	letter-spacing: 1px;
+	letter-spacing: .7px;
 }
 
 @media screen and (max-width: 991px) {
