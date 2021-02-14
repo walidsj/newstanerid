@@ -18,7 +18,7 @@
 	<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" integrity="sha256-DHF4zGyjT7GOMPBwpeehwoey18z8uiz98G4PRu2lV0A=" crossorigin="anonymous"></script>
 
 	<!-- external calling -->
-	<script type="text/javascript" src="<?= base_url(); ?>public/js/app.js"></script>
+	<script type="text/javascript" src="<?= base_url(); ?>public/js/app.js?v=1.0"></script>
 	</body>
 
 	</html>
