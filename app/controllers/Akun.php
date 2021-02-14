@@ -15,9 +15,6 @@ class Akun extends CI_Controller
 
 	public function index()
 	{
-
-		$data['user'] = $this->user;
-
 		$data['title'] = 'Akunku';
 		$this->load->view('pages/akun/index', $data);
 	}

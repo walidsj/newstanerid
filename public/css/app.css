@@ -1701,7 +1701,7 @@ ol.list-popular-article>li:before {
 	border-top: 0;
 	border-bottom: 1px solid #e0e0e0;
 	padding-top: 0;
-	padding-left: 0;
+	/* padding-left: 0; */
 	padding-bottom: 1.2rem;
 }
 

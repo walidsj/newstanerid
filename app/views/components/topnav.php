@@ -13,7 +13,7 @@
                     <div class="ml-3 mr-1">
                         <a class="p-relative" href="javascript:void(0)" id="ShowMenuMobile" role="button">
                             <?php if (!empty($this->user)) : ?>
-                                <img class="rounded-circle" src="<?= $this->user->user_image; ?>" height="24" alt="<?= site_url(); ?>" class="img">
+                                <img class="rounded-circle" src="<?= $this->user->image_user; ?>" height="24" alt="<?= site_url(); ?>" class="img">
                             <?php else : ?>
                                 <img class="rounded-circle" src="<?= base_url(); ?>public/img/icon/user.svg" height="24" alt="<?= site_url(); ?>" class="img">
                             <?php endif; ?>

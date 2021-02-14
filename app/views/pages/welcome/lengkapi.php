@@ -5,7 +5,7 @@
 <div class="content-box content-other">
     <!-- Timehelper -->
     <div class="content-box content-home">
-        <div class="jumbotron mb-0">
+        <div class="jumbotron p-3 mb-0">
             <div class="container">
                 <div class="row justify-content-between align-items-center">
                     <div class="col-12">
@@ -14,7 +14,7 @@
                 </div>
             </div>
         </div>
-        <section class="content-blank">
+        <section class="pt-4">
             <div class="container pb-5 mb-5">
                 <div class="container">
                     <div class="row">
@@ -23,54 +23,57 @@
                             <h5>Data Mahasiswa</h5>
                             <hr>
                             <div class="form-group">
-                                <label class="text-default font-600 w-100">Nama Lengkap</label>
-                                <input type="text" class="form-control" value="<?= $user->nama; ?>" disabled>
+                                <table class="table table-bordered table-striped">
+                                    <tr>
+                                        <th>Nama</th>
+                                        <td><?= $mahasiswa->nama_mahasiswa; ?></td>
+                                    </tr>
+                                    <tr>
+                                        <th>NPM</th>
+                                        <td><?= $mahasiswa->npm_mahasiswa; ?></td>
+                                    </tr>
+                                    <tr>
+                                        <th>Jurusan</th>
+                                        <td><?= $mahasiswa->nama_jurusan; ?></td>
+                                    </tr>
+                                    <tr>
+                                        <th>Prodi</th>
+                                        <td><?= $mahasiswa->nama_prodi; ?></td>
+                                    </tr>
+                                    <tr>
+                                        <th>Tahun Angkatan</th>
+                                        <td><?= $mahasiswa->angkatan_mahasiswa; ?></td>
+                                    </tr>
+                                    <tr>
+                                        <th>Kelas</th>
+                                        <td><?= $mahasiswa->angka_semester . '-' . $mahasiswa->kelas_mahasiswa; ?></td>
+                                    </tr>
+                                </table>
                             </div>
-                            <div class="form-group">
-                                <label class="text-default font-600 w-100">NPM</label>
-                                <input type="text" class="form-control" value="<?= $user->npm; ?>" disabled>
-                            </div>
-                            <div class="form-group">
-                                <label class="text-default font-600 w-100">Jurusan</label>
-                                <input type="text" class="form-control" value="<?= $user->jurusan; ?>" disabled>
-                            </div>
-                            <div class="form-group">
-                                <label class="text-default font-600 w-100">Program Studi</label>
-                                <input type="text" class="form-control" value="<?= $user->prodi; ?>" disabled>
-                            </div>
-                            <div class="form-group">
-                                <label class="text-default font-600 w-100">Tahun Angkatan</label>
-                                <input type="text" class="form-control" value="<?= $user->angkatan; ?>" disabled>
-                            </div>
-                            <div class="form-group">
-                                <label class="text-default font-600 w-100">Kelas</label>
-                                <input type="text" class="form-control" value="<?= $user->kelas; ?>" disabled>
-                            </div>
-                            <h5 class="pt-3">Data Akun</h5>
+                            <h5>Data Akun</h5>
                             <hr>
                             <div class="form-group">
                                 <label class="text-default font-600 w-100">Alamat Email</label>
-                                <input type="text" class="form-control" value="<?= $akun->email; ?>" disabled>
+                                <input type="text" class="form-control" value="<?= $mahasiswa->email_mahasiswa; ?>" disabled>
                             </div>
                             <div class="form-group">
                                 <label class="text-default font-600 w-100">No. WhatsApp</label>
-                                <input id="whatsapp" name="whatsapp" type="number" maxlength="16" class="form-control" placeholder="08XXXXXXXXX" value="<?= set_value('whatsapp'); ?>">
+                                <input id="whatsapp" name="whatsapp" type="number" maxlength="16" class="form-control" placeholder="085000000000" value="<?= set_value('whatsapp'); ?>">
                                 <?= (!empty(form_error('whatsapp'))) ? form_error('whatsapp', '<small class="text-danger">', '</small>') : null; ?>
                             </div>
                             <div class="form-group">
-                                <label class="text-default font-600 w-100">ID Line</label>
-                                <input id="line" name="line" type="text" maxlength="32" class="form-control" placeholder="fulanbinfulan" value="<?= set_value('line'); ?>">
-                                <?= (!empty(form_error('line'))) ? form_error('line', '<small class="text-danger">', '</small>') : null; ?>
+                                <label class="text-default font-600 w-100">Foto Profil</label>
+                                <img class="img" style="border-radius:50%" height="64" src="<?= $akun->picture; ?>" alt="<?= $mahasiswa->nama_mahasiswa; ?>">
                             </div>
                             <div class="form-group">
-                                <label class="text-default font-600 w-100">Foto Profil</label>
-                                <img class="img" style="border-radius:50%" height="64" src="<?= $akun->picture; ?>" alt="<?= $user->nama; ?>">
+                                <?= $this->recaptcha->render(); ?>
+                                <?= (!empty(form_error('g-recaptcha-response'))) ? form_error('g-recaptcha-response', '<small class="text-danger">', '</small>') : null; ?>
                             </div>
                             <div class="form-group">
                                 <button type="submit" class="btn btn-block btn-primary"><i class="fa fa-save mr-2"></i>Simpan</button>
                             </div>
                             <?= form_close(); ?>
-                            <div class="form-group mt-5">
+                            <div class="form-group">
                                 <a href="<?= site_url(); ?>registrasi/logout" class="btn btn-block btn-secondary">Batalkan</a>
                             </div>
                         </div>

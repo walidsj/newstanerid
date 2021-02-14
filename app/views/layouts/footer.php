@@ -38,13 +38,6 @@
 	</script>
 
 	<script type="text/javascript">
-		function initPlayer() {
-			const player = new Plyr('.js-player');
-		}
-		initPlayer()
-	</script>
-
-	<script type="text/javascript">
 		$('body').tooltip({
 			selector: '.card-title'
 		});

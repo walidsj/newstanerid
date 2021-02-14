@@ -70,7 +70,7 @@
 
 
 								if ($this->user) {
-									$nama = explode(' ', str_replace('.', '', $this->user->nama))[0];
+									$nama = explode(' ', str_replace('.', '', $this->user->nama_mahasiswa))[0];
 								} else {
 									$nama = 'Staner';
 								}

@@ -17,15 +17,15 @@
                             <?php
                             $image = base_url('assets/img/tentor/cabbage.png');
 
-                            if (!empty($this->user->user_image)) {
-                                $image = $this->user->user_image;
+                            if (!empty($this->user->image_user)) {
+                                $image = $this->user->image_user;
                             }
                             ?>
                             <img src="<?= $image; ?>" class="img-fluid img-profile" alt="">
                             <div class="info-profile">
-                                <p class="title pb-0 pl-0"><?= $this->user->nama; ?></p>
+                                <p class="title py-0 pl-0"><?= $this->user->nama_mahasiswa; ?></p>
                                 <div class="d-flex align-items-center mb-0">
-                                    <p class="text-default mb-0 mr-2"><?= $this->user->user_email; ?></p>
+                                    <p class="text-default mb-0 mr-2"><?= $this->user->email_user; ?></p>
                                 </div>
                             </div>
                         </div>
