@@ -1,8 +1,8 @@
 <nav class="navbar navbar-expand-lg desktop-navigation fixed-top other-navbar shadow-sm">
     <div class="container">
         <div class="navbar-header <?= (!empty($this->user)) ? '' : 'mx-auto'; ?>">
-            <a class="navbar-brand mx-auto pt-0 mr-0" href="<?= site_url(); ?>">
-                <img src="<?= base_url(); ?>assets/img/logo-1.png" alt="<?= site_url(); ?>" class="img-fluid logo-other">
+            <a class="navbar-brand mx-auto pt-0 mr-0">
+                <img src="<?= base_url(); ?>public/img/logo.webp" alt="<?= site_url(); ?>" class="img-fluid logo-other">
             </a>
         </div>
 
